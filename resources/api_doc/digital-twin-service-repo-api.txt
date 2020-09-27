@@ -1,0 +1,99 @@
+// repository APIs
+
+/repository/aasenv
+	POST:
+		body:	AssetAdministrationShellEnv
+		response: AssetAdministrationShellEnv
+		description: Upload collection of AAS and related details serialized as AssetAdministrationShellEnv object
+	GET:
+		response: AssetAdministrationShellEnv
+		description: Get all AAS in the system.
+
+/repository/aas
+	POST:
+		body:	AssetAdministrationShell
+		response: AssetAdministrationShell
+		description: Add AssetAdministrationShell template definition to the system
+	GET:
+		response: {assets: [AssetAdministrationShell]}
+		description: Object containing array of assets
+
+		
+/repository/aas/{id}
+	PUT:
+		body: AssetAdministrationShell
+		response: AssetAdministrationShell
+		description: Update a specific AssetAdministrationShell template, updates the version
+	GET:
+		response: AssetAdministrationShell
+		description: Get single AssetAdministrationShell template matching the id
+	DELETE:
+		response:  AssetAdministrationShell
+		descriptions: Deletes the AssetAdministrationShell template when id matches
+		
+	
+/repository/submodel
+	POST:
+		body:	Submodel
+		response: Submodel
+		description: Add submodel template definition to the system
+	GET:
+		response: {submodels: [Submodel]}
+		description: Object containing array of submodels
+		
+/repository/submodel/{id}
+	PUT:
+		body: Submodel
+		response: Submodel
+		description: Update a specific submodel template, updates the version
+	GET:
+		response: Submodel
+		description: Get single submodel template matching the id
+	DELETE:
+		response:  Submodel
+		descriptions: Deletes the submodel template when id matches
+
+/repository/asset
+	POST:
+		body:	Asset
+		response: Asset
+		description: Add asset template definition to the system
+	GET:
+		response: {assets: [Asset]}
+		description: Object containing array of assets
+
+		
+/repository/asset/{id}
+	PUT:
+		body: Asset
+		response: Asset
+		description: Update a specific asset template, updates the version
+	GET:
+		response: Asset
+		description: Get single asset template matching the id
+	DELETE:
+		response:  Asset
+		descriptions: Deletes the asset template when id matches
+		
+/repository/conceptdescription
+	POST:
+		body:	ConceptDescription
+		response: ConceptDescription
+		description: Add ConceptDescription template definition to the system
+	GET:
+		response: {assets: [ConceptDescription]}
+		description: Object containing array of assets
+
+		
+/repository/conceptdescription/{id}
+	PUT:
+		body: ConceptDescription
+		response: ConceptDescription
+		description: Update a specific ConceptDescription template, updates the version
+	GET:
+		response: ConceptDescription
+		description: Get single ConceptDescription template matching the id
+	DELETE:
+		response:  ConceptDescription
+		descriptions: Deletes the ConceptDescription template when id matches
+		

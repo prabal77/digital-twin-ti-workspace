@@ -1,0 +1,21 @@
+// APIs describing interaction with digital twin models
+
+
+/model
+	POST:
+		body: {}
+		description: Update digital twin models/templates to the system
+	GET:
+		body: {models: []}
+		description: Get list of all digital twin models/templates present in the system
+		
+/model/{id}
+	PUT:
+		body: {}
+		description: Update a digital twin model
+	DELETE:
+		description: Deletes a digital twin model from system. Deleting model, deletes all instances of the model from system
+	GET:
+		body: {}
+		description: Get the specific digital twin model
+		
