@@ -15,21 +15,40 @@
 		response: AssetAdministrationShell
 		description: Add AssetAdministrationShell template definition to the system
 	GET:
-		response: {assets: [AssetAdministrationShell]}
-		description: Object containing array of assets
+		response: { 'assetAdministrationShellList' : [ AssetAdministrationShell ]}
+		description: Object containing array of AssetAdministrationShells
 
 		
 /repository/aas/{id}
 	PUT:
 		body: AssetAdministrationShell
 		response: AssetAdministrationShell
-		description: Update a specific AssetAdministrationShell template, updates the version
+		description: Update a specific AssetAdministrationShell template, updates the version id
 	GET:
 		response: AssetAdministrationShell
 		description: Get single AssetAdministrationShell template matching the id
 	DELETE:
 		response:  AssetAdministrationShell
 		descriptions: Deletes the AssetAdministrationShell template when id matches
+		
+
+/repository/aas/{id}/submodel
+	POST:
+		body: { 'subModelList' : [ submodelId : string ]}
+		response: AssetAdministrationShell
+		description: Link multiple existing submodel (with id submodelId) to an existing AAS
+	GET:
+		response: { 'subModelList': [Submodel]}
+		description: Get list of all submodels directly linked to the AAS
+		
+		
+/repository/aas/{id}/submodel/{submodelId}
+	GET:
+		response: Submodel
+		description: Get specific submodel which is linked to the AAS		
+	DELETE:
+		response:  Submodel
+		descriptions: Unlink a submodel from aas
 		
 	
 /repository/submodel
@@ -38,7 +57,7 @@
 		response: Submodel
 		description: Add submodel template definition to the system
 	GET:
-		response: {submodels: [Submodel]}
+		response: { 'subModelList' : [Submodel]}
 		description: Object containing array of submodels
 		
 /repository/submodel/{id}
@@ -59,7 +78,7 @@
 		response: Asset
 		description: Add asset template definition to the system
 	GET:
-		response: {assets: [Asset]}
+		response: { 'assetList' : [Asset]}
 		description: Object containing array of assets
 
 		
@@ -81,8 +100,8 @@
 		response: ConceptDescription
 		description: Add ConceptDescription template definition to the system
 	GET:
-		response: {assets: [ConceptDescription]}
-		description: Object containing array of assets
+		response: { 'conceptDescriptionList' : [ConceptDescription]}
+		description: Object containing array of ConceptDescription
 
 		
 /repository/conceptdescription/{id}

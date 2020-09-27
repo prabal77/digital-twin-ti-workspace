@@ -4,14 +4,16 @@
 /model
 	POST:
 		body: {}
-		description: Update digital twin models/templates to the system
+		response: {} -> model object
+		description: Adds a Digital Twin model to the system
 	GET:
-		body: {models: []}
+		body: { 'modelList' : []}
 		description: Get list of all digital twin models/templates present in the system
 		
 /model/{id}
 	PUT:
 		body: {}
+		response: {}
 		description: Update a digital twin model
 	DELETE:
 		description: Deletes a digital twin model from system. Deleting model, deletes all instances of the model from system
@@ -19,3 +21,25 @@
 		body: {}
 		description: Get the specific digital twin model
 		
+		
+/model/{id}/instance
+	POST:
+		body: {}
+		response: {}
+		description: Creates an instance of the specific model
+	GET:
+		response: { 'instanceList': [ {} ]}
+		description: Gets list of instances specified for the model
+		
+		
+/model/{id}/instance/{instanceId}
+	PUT:
+		body: {}
+		response: {}
+		description: Updates the model instances for a specific model
+	GET:
+		response: {}
+		description: Get the specific instance of the model.
+	DELETE:
+		response: {}
+		description: Deletes a specific instance of a model.
