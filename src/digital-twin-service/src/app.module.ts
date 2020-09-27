@@ -1,10 +1,11 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { DigitalTwinRepoModule } from './digital-twin-repo/digital-twin-repo.module';
+import { DigitalTwinCoreModule } from './digital-twin-core/digital-twin-core.module';
 
 @Module({
-  imports: [],
+  imports: [DigitalTwinRepoModule, DigitalTwinCoreModule],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [],
 })
-export class AppModule {}
+export class AppModule { }

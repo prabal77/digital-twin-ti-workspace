@@ -1,12 +1,14 @@
 import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor() { }
 
+  /**
+   * returns swagger document which describes all the REST end points
+   */
   @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  getSwaggerDocument(): string {
+    return "'Hello World!'";
   }
 }
