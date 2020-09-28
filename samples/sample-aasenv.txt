@@ -1,0 +1,102 @@
+{
+    "assetAdministrationShells": [
+        {
+            "identification": {
+                "id": "http://test.com/aas/id/aas123",
+                "idType": "IRDI"
+            },
+            "modelType": {
+                "name": "AssetAdministrationShell"
+            },
+            "description": [],
+            "idShort": "identification123",
+            "submodels": [],
+            "conceptDictionaries": [],
+            "views": [],
+            "asset": {
+                "keys": [
+                    {
+                        "idType": "IRDI",
+                        "local": true,
+                        "type": "Asset",
+                        "value": "http://test.com/asset/123"
+                    }
+                ]
+            },
+            "embeddedDataSpecifications": []
+        }
+    ],
+    "submodels": [
+        {
+            "identification": {
+                "id": "http://test.com/submodel/id/identification123",
+                "idType": "IRDI"
+            },
+            "modelType": {
+                "name": "Submodel"
+            },
+            "description": [],
+            "idShort": "identification123",
+            "kind": "Instance",
+            "submodelElements": [
+                {
+                    "idShort": "ManufacturerName",
+                    "parent": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "local": true,
+                                "type": "Submodel",
+                                "value": "http://test.com/submodel/id/identification123"
+                            }
+                        ]
+                    },
+                    "description": [],
+                    "modelType": {
+                        "name": "Property"
+                    },
+                    "kind": "Instance",
+                    "semanticId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "local": false,
+                                "type": "GlobalReference",
+                                "value": "0173-1#02-AAO677#002"
+                            }
+                        ]
+                    },
+                    "value": "SAP SE",
+                    "valueType": "string"
+                }
+            ],
+            "embeddedDataSpecifications": []
+        }
+    ],
+    "conceptDescriptions": [],
+    "assets": [
+        {
+            "identification": {
+                "id": "http://test.com/asset/123",
+                "idType": "IRDI"
+            },
+            "modelType": {
+                "name": "Asset"
+            },
+            "description": [],
+            "idShort": "123",
+            "assetIdentificationModel": {
+                "keys": [
+                    {
+                        "idType": "IRDI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "http://test.com/submodel/id/identification123"
+                    }
+                ]
+            },
+            "kind": "Instance",
+            "embeddedDataSpecifications": []
+        }
+    ]
+}
