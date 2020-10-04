@@ -1,15 +1,15 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { AssetDataProvider } from './asset-data-provider';
+import { Dbconnection } from './dbconnection';
 
-describe('AssetDataProvider', () => {
-  let provider: AssetDataProvider;
+describe('Dbconnection', () => {
+  let provider: Dbconnection;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [AssetDataProvider],
+      providers: [Dbconnection],
     }).compile();
 
-    provider = module.get<AssetDataProvider>(AssetDataProvider);
+    provider = module.get<Dbconnection>(Dbconnection);
   });
 
   it('should be defined', () => {

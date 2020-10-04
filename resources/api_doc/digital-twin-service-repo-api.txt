@@ -1,15 +1,11 @@
-// repository APIs
-
-/repository/aasenv
+/aasenv
 	POST:
 		body:	AssetAdministrationShellEnv
 		response: AssetAdministrationShellEnv
 		description: Upload collection of AAS and related details serialized as AssetAdministrationShellEnv object
-	GET:
-		response: AssetAdministrationShellEnv
-		description: Get all AAS in the system.
 
-/repository/aas
+
+/aas
 	POST:
 		body:	AssetAdministrationShell
 		response: AssetAdministrationShell
@@ -19,7 +15,7 @@
 		description: Object containing array of AssetAdministrationShells
 
 		
-/repository/aas/{id}
+/aas/{id}
 	PUT:
 		body: AssetAdministrationShell
 		response: AssetAdministrationShell
@@ -32,7 +28,7 @@
 		descriptions: Deletes the AssetAdministrationShell template when id matches
 		
 
-/repository/aas/{id}/submodel
+/aas/{id}/submodel
 	POST:
 		body: { 'subModelList' : [ submodelId : string ]}
 		response: AssetAdministrationShell
@@ -42,7 +38,7 @@
 		description: Get list of all submodels directly linked to the AAS
 		
 		
-/repository/aas/{id}/submodel/{submodelId}
+/aas/{id}/submodel/{submodelId}
 	GET:
 		response: Submodel
 		description: Get specific submodel which is linked to the AAS		
@@ -51,7 +47,7 @@
 		descriptions: Unlink a submodel from aas
 		
 	
-/repository/submodel
+/submodel
 	POST:
 		body:	Submodel
 		response: Submodel
@@ -60,7 +56,7 @@
 		response: { 'subModelList' : [Submodel]}
 		description: Object containing array of submodels
 		
-/repository/submodel/{id}
+/submodel/{id}
 	PUT:
 		body: Submodel
 		response: Submodel
@@ -72,7 +68,7 @@
 		response:  Submodel
 		descriptions: Deletes the submodel template when id matches
 
-/repository/asset
+/asset
 	POST:
 		body:	Asset
 		response: Asset
@@ -82,7 +78,7 @@
 		description: Object containing array of assets
 
 		
-/repository/asset/{id}
+/asset/{id}
 	PUT:
 		body: Asset
 		response: Asset
@@ -94,7 +90,7 @@
 		response:  Asset
 		descriptions: Deletes the asset template when id matches
 		
-/repository/conceptdescription
+/cds
 	POST:
 		body:	ConceptDescription
 		response: ConceptDescription
@@ -104,7 +100,7 @@
 		description: Object containing array of ConceptDescription
 
 		
-/repository/conceptdescription/{id}
+/cds/{id}
 	PUT:
 		body: ConceptDescription
 		response: ConceptDescription

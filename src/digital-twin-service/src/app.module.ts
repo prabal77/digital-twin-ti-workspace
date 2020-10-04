@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
-import { DigitalTwinRepoModule } from './digital-twin-repo/digital-twin-repo.module';
 import { DigitalTwinCoreModule } from './digital-twin-core/digital-twin-core.module';
+import { Dbconnection } from './dbconnection';
 
 @Module({
-  imports: [DigitalTwinRepoModule, DigitalTwinCoreModule],
+  imports: [DigitalTwinCoreModule],
   controllers: [AppController],
-  providers: [],
+  providers: [Dbconnection],
 })
 export class AppModule { }
