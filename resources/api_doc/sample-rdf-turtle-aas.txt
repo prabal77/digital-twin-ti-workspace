@@ -1,0 +1,1048 @@
+@prefix ns0: <http://admin-shell.io/aas/2/0/Referable/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://admin-shell.io/aas/2/0/AssetAdministrationShell/> .
+@prefix ns2: <http://admin-shell.io/aas/2/0/Reference/> .
+@prefix ns3: <http://admin-shell.io/aas/2/0/Key/> .
+@prefix ns4: <http://admin-shell.io/aas/2/0/Identifiable/> .
+@prefix ns5: <http://admin-shell.io/aas/2/0/Asset/> .
+@prefix ns6: <http://admin-shell.io/aas/2/0/HasSemantics/> .
+@prefix ns7: <http://admin-shell.io/aas/2/0/HasKind/> .
+@prefix ns8: <http://admin-shell.io/aas/2/0/Submodel/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns9: <http://admin-shell.io/aas/2/0/Property/> .
+@prefix ns10: <http://admin-shell.io/aas/2/0/File/> .
+@prefix ns11: <http://admin-shell.io/aas/2/0/SubmodelElementCollection/> .
+@prefix ns12: <http://admin-shell.io/aas/2/0/HasDataSpecification/> .
+@prefix ns13: <http://admin-shell.io/aas/2/0/ConceptDescription/> .
+@prefix ns14: <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/> .
+@prefix ns15: <http://admin-shell.io/aas/2/0/Identifier/> .
+@prefix ns16: <http://admin-shell.io/aas/2/0/AdministrativeInformation/> .
+
+<http://customer.com/aas/9175_7013_7091_9168>
+  a <http://admin-shell.io/aas/2/0/AssetAdministrationShell> ;
+  ns0:idShort "ExampleMotor"^^xsd:string ;
+  rdfs:label "ExampleMotor"^^xsd:string ;
+  ns0:description "A very short description of the AAS instance."@en ;
+  rdfs:comment "A very short description of the AAS instance."^^xsd:string ;
+  ns1:asset [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/ASSET> ;
+      ns3:local true ;
+      ns3:value <http://customer.com/assets/KHBVZJSQKIY> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns1:submodel [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL> ;
+      ns3:local true ;
+      ns3:value <http://i40.customer.com/type/1/1/F13E8576F6488342> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ], [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL> ;
+      ns3:local true ;
+      ns3:value <http://i40.customer.com/type/1/1/7A7104BDAB57E184> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ], [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL> ;
+      ns3:local true ;
+      ns3:value <http://i40.customer.com/instance/1/1/AC69B1CB44F07935> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ], [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL> ;
+      ns3:local true ;
+      ns3:value <http://i40.customer.com/type/1/1/1A7B62B529F19152> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns4:identification <http://customer.com/aas/9175_7013_7091_9168> ;
+  ns0:category "CONSTANT"^^xsd:string .
+
+<http://customer.com/assets/KHBVZJSQKIY>
+  a <http://admin-shell.io/aas/2/0/Asset> ;
+  ns0:idShort "ServoDCMotor"^^xsd:string ;
+  rdfs:label "ServoDCMotor"^^xsd:string ;
+  ns4:identification <http://customer.com/assets/KHBVZJSQKIY> ;
+  ns5:assetIdentificationModel [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL> ;
+      ns3:local true ;
+      ns3:value <http://i40.customer.com/type/1/1/F13E8576F6488342> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns5:kind <http://admin-shell.io/aas/2/0/AssetKind/INSTANCE> .
+
+<http://i40.customer.com/type/1/1/F13E8576F6488342>
+  a <http://admin-shell.io/aas/2/0/Submodel> ;
+  ns0:idShort "Identification"^^xsd:string ;
+  rdfs:label "Identification"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns0:description "Identification from Manufacturer"@en, "Hersteller-Identifikation"@de ;
+  rdfs:comment "Identification from Manufacturer"@en, "Hersteller-Identifikation"@de ;
+  ns4:identification <http://i40.customer.com/type/1/1/F13E8576F6488342> ;
+  ns6:semanticId [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value "0173-1#01-ADN198#009"^^xsd:string ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+    ]
+  ] ;
+  ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+  ns8:submodelElement [
+    a <http://admin-shell.io/aas/2/0/Property> ;
+    rdf:subject <http://i40.customer.com/type/1/1/F13E8576F6488342/Manufacturer> ;
+    ns0:idShort "Manufacturer"^^xsd:string ;
+    rdfs:label "Manufacturer"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/CONSTANT> ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+        ns3:local false ;
+        ns3:value "0173-1#02-AAO677#002"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns3:value "CUSTOMER GmbH"^^xsd:string
+  ], [
+    a <http://admin-shell.io/aas/2/0/Property> ;
+    rdf:subject <http://i40.customer.com/type/1/1/F13E8576F6488342/GLN> ;
+    ns0:idShort "GLN"^^xsd:string ;
+    rdfs:label "GLN"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/CONSTANT> ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+        ns3:local false ;
+        ns3:value "0173-1#02-AAY812#001"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns3:value 10101010
+  ], [
+    a <http://admin-shell.io/aas/2/0/MultiLanguageProperty> ;
+    rdf:subject <http://i40.customer.com/type/1/1/F13E8576F6488342/ProductDesignation> ;
+    ns0:idShort "ProductDesignation"^^xsd:string ;
+    rdfs:label "ProductDesignation"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/CONSTANT> ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+        ns3:local false ;
+        ns3:value "0173-1#02-AAW338#001"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns3:value "I40 Capable Servo Motor"@en
+  ], [
+    a <http://admin-shell.io/aas/2/0/Property> ;
+    rdf:subject <http://i40.customer.com/type/1/1/F13E8576F6488342/SerialNumber> ;
+    ns0:idShort "SerialNumber"^^xsd:string ;
+    rdfs:label "SerialNumber"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/CONSTANT> ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+        ns3:local false ;
+        ns3:value "0173-1#02-AAM556#002"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns3:value "P12345678I40"@en
+  ] .
+
+<http://i40.customer.com/type/1/1/7A7104BDAB57E184>
+  a <http://admin-shell.io/aas/2/0/Submodel> ;
+  ns0:idShort "TechnicalData"^^xsd:string ;
+  rdfs:label "TechnicalData"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://i40.customer.com/type/1/1/7A7104BDAB57E184> ;
+  ns6:semanticId [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value "0173-1#01-AFZ615#016"^^xsd:string ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+    ]
+  ] ;
+  ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+  ns8:submodelElement [
+    a <http://admin-shell.io/aas/2/0/Property> ;
+    rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/MaxRotationSpeed> ;
+    ns0:idShort "MaxRotationSpeed"^^xsd:string ;
+    rdfs:label "MaxRotationSpeed"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/PARAMETER> ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+        ns3:local true ;
+        ns3:value "0173-1#02-BAA120#008"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns3:value 5000
+  ], [
+    a <http://admin-shell.io/aas/2/0/Property> ;
+    rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/MaxTorque> ;
+    ns0:idShort "MaxTorque"^^xsd:string ;
+    rdfs:label "MaxTorque"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/PARAMETER> ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+        ns3:local true ;
+        ns3:value "0173-1#02-BAE098#004"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns3:value "200"^^xsd:float
+  ], [
+    a <http://admin-shell.io/aas/2/0/Property> ;
+    rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/CoolingType> ;
+    ns0:idShort "CoolingType"^^xsd:string ;
+    rdfs:label "CoolingType"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/PARAMETER> ;
+    ns0:description "open circuit, external cooling"@en ;
+    rdfs:comment "open circuit, external cooling"@en ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+        ns3:local true ;
+        ns3:value "0173-1#02-BAE122#006"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns3:value "BAB657"^^xsd:string ;
+    ns3:valueId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+        ns3:local true ;
+        ns3:value "0173-1#07-BAB657#003"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ]
+  ] .
+
+<http://i40.customer.com/type/1/1/1A7B62B529F19152>
+  a <http://admin-shell.io/aas/2/0/Submodel> ;
+  ns0:idShort "Documentation"^^xsd:string ;
+  rdfs:label "Documentation"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://i40.customer.com/type/1/1/1A7B62B529F19152> ;
+  ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+  ns8:submodelElementCollection [
+    a <http://admin-shell.io/aas/2/0/SubmodelElementCollection> ;
+    rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual> ;
+    ns0:idShort "OperatingManual"^^xsd:string ;
+    rdfs:label "OperatingManual"^^xsd:string ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+        ns3:local true ;
+        ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document> ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+      ]
+    ] ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns8:submodelElement [
+      a <http://admin-shell.io/aas/2/0/Property> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentId> ;
+      ns0:idShort "DocumentId"^^xsd:string ;
+      rdfs:label "DocumentId"^^xsd:string ;
+      ns9:category <http://admin-shell.io/aas/2/0/Category/CONSTANT> ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentId/Val> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns3:value "3 608 870 A47"^^xsd:string
+    ], [
+      a <http://admin-shell.io/aas/2/0/Property> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassId> ;
+      ns0:idShort "DocumentClassId"^^xsd:string ;
+      rdfs:label "DocumentClassId"^^xsd:string ;
+      ns9:category <http://admin-shell.io/aas/2/0/Category/CONSTANT> ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassId> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns3:value "03-02"^^xsd:string
+    ], [
+      a <http://admin-shell.io/aas/2/0/MultiLanguageProperty> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassName> ;
+      ns0:idShort "DocumentClassName"^^xsd:string ;
+      rdfs:label "DocumentClassName"^^xsd:string ;
+      ns9:category <http://admin-shell.io/aas/2/0/Category/CONSTANT> ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassName> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns3:value "Operation"@en, "Bedienung"@de
+    ], [
+      a <http://admin-shell.io/aas/2/0/Property> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassificationSystem> ;
+      ns0:idShort "DocumentClassificationSystem"^^xsd:string ;
+      rdfs:label "DocumentClassificationSystem"^^xsd:string ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassificationSystem> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns3:value "VDI2770:2018"^^xsd:string
+    ], [
+      a <http://admin-shell.io/aas/2/0/Property> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/OrganizationName> ;
+      ns0:idShort "OrganizationName"^^xsd:string ;
+      rdfs:label "OrganizationName"^^xsd:string ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationName> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns3:value "CUSTOMER"^^xsd:string
+    ], [
+      a <http://admin-shell.io/aas/2/0/Property> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/OrganizationOfficialName> ;
+      ns0:idShort "OrganizationOfficialName"^^xsd:string ;
+      rdfs:label "OrganizationOfficialName"^^xsd:string ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationOfficialName> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns3:value "CUSTOMER GmbH"^^xsd:string
+    ], [
+      a <http://admin-shell.io/aas/2/0/Property> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/Title> ;
+      ns0:idShort "Title"^^xsd:string ;
+      rdfs:label "Title"^^xsd:string ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns3:value "Operating Manual"^^xsd:string
+    ], [
+      a <http://admin-shell.io/aas/2/0/Property> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/Language> ;
+      ns0:idShort "Language"^^xsd:string ;
+      rdfs:label "Language"^^xsd:string ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion/Language> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns3:value "en-US"^^xsd:string
+    ], [
+      a <http://admin-shell.io/aas/2/0/File> ;
+      rdf:subject <http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DigitalFile_PDF> ;
+      ns0:idShort "DigitalFile_PDF"^^xsd:string ;
+      rdfs:label "DigitalFile_PDF"^^xsd:string ;
+      ns0:category "PARAMETER"^^xsd:string ;
+      ns6:semanticId [
+        a <http://admin-shell.io/aas/2/0/Reference> ;
+        ns2:key [
+          a <http://admin-shell.io/aas/2/0/Key> ;
+          ns3:index 0 ;
+          ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+          ns3:local true ;
+          ns3:value <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title> ;
+          ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+        ]
+      ] ;
+      ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+      ns10:mimeType "application/pdf"^^xsd:string ;
+      ns3:value "/aasx/OperatingManual.pdf"^^xsd:string
+    ] ;
+    ns11:ordered false ;
+    ns11:allowDuplicates false
+  ] .
+
+<http://i40.customer.com/instance/1/1/AC69B1CB44F07935>
+  a <http://admin-shell.io/aas/2/0/Submodel> ;
+  ns0:idShort "OperationalData"^^xsd:string ;
+  rdfs:label "OperationalData"^^xsd:string ;
+  ns0:category "VARIABLE"^^xsd:string ;
+  ns4:identification <http://i40.customer.com/instance/1/1/AC69B1CB44F07935> ;
+  ns6:semanticId [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value "0173-1#01-AFZ615#016"^^xsd:string ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+    ]
+  ] ;
+  ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+  ns8:submodelElement [
+    a <http://admin-shell.io/aas/2/0/Property> ;
+    rdf:subject <http://i40.customer.com/instance/1/1/AC69B1CB44F07935/RotationSpeed> ;
+    ns0:idShort "RotationSpeed"^^xsd:string ;
+    rdfs:label "RotationSpeed"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/VARIABLE> ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+        ns3:local true ;
+        ns3:value <http://customer.com/cd/1/1/18EBD56F6B43D895> ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+      ]
+    ] ;
+    ns3:value 4370
+  ], [
+    a <http://admin-shell.io/aas/2/0/Property> ;
+    rdf:subject <http://i40.customer.com/instance/1/1/AC69B1CB44F07935/Torque> ;
+    ns0:idShort "Torque"^^xsd:string ;
+    rdfs:label "Torque"^^xsd:string ;
+    ns9:category <http://admin-shell.io/aas/2/0/Category/VARIABLE> ;
+    ns7:kind <http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE> ;
+    ns6:semanticId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+        ns3:local true ;
+        ns3:value <http://customer.com/cd/1/1/18EBD56F6B43D896> ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+      ]
+    ] ;
+    ns3:value "117.4"^^xsd:float
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "Document"^^xsd:string ;
+  rdfs:label "Document"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Document"@en, "Dokument"@de ;
+    ns14:shortName "Document"@en ;
+    ns14:sourceOfDefinition "[ISO 15519-1:2010]"^^xsd:string ;
+    ns14:datatype "ENTITY"^^xsd:string ;
+    ns14:definition "Feste und geordnete Menge von für die Verwendung durch Personen bestimmte Informationen, die verwaltet und als Einheit zwischen Benutzern und System ausgetauscht werden kann."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentId/Val>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "DocumentIdValue"^^xsd:string ;
+  rdfs:label "DocumentIdValue"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentId/Val> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Document Id"@en, "Dokumenten ID"@de ;
+    ns14:shortName "DocumentId"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "die eigentliche Identifikationsnummer"@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassId>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "DocumentClassId"^^xsd:string ;
+  rdfs:label "DocumentClassId"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassId> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Document Class Id"@en, "Dokumentenklassen ID"@de ;
+    ns14:shortName "DocumentClassId"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "Eindeutige ID der Klasse in einer Klassifikation."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassName>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "DocumentClassName"^^xsd:string ;
+  rdfs:label "DocumentClassName"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassName> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Document Class Name"@en ;
+    ns14:shortName "DocumentClassName"@en ;
+    ns14:datatype "STRING_TRANSLATABLE"^^xsd:string ;
+    ns14:definition "Liste von sprachabhängigen Namen zur ClassId."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassificationSystem>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "DocumentClassificationSystem"^^xsd:string ;
+  rdfs:label "DocumentClassificationSystem"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassificationSystem> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Classification System"@en, "Klassifikationssystem"@de ;
+    ns14:shortName "DocumentClassificationSystem"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "Eindeutige Kennung für ein Klassifikationssystem. Für Klassifikationen nach VDI 2770 muss 'VDI2770:2018' verwenden werden."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationName>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "OrganizationName"^^xsd:string ;
+  rdfs:label "OrganizationName"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationName> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "gebräuchliche Bezeichnung für Organisation"@de, "organization name"@en ;
+    ns14:shortName "OrganizationName"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "Die gebräuchliche Bezeichnung für die Organisation."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationOfficialName>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "OrganizationOfficialName"^^xsd:string ;
+  rdfs:label "OrganizationOfficialName"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationOfficialName> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "offizieller Name der Organisation"@de, "official name of the organization"@en ;
+    ns14:shortName "OrganizationOfficialName"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "Der offizielle Name der Organisation."@de
+  ] ;
+  ns13:isCaseOf [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION> ;
+      ns3:local true ;
+      ns3:value "0173-1#02-AAO677#002"^^xsd:string ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+    ]
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "DocumentVersion"^^xsd:string ;
+  rdfs:label "DocumentVersion"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Document Version"@en, "Version des Dokuments"@de ;
+    ns14:shortName "DocumentVersion"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "Zu jedem Dokument muss eine Menge von mindestens einer Dokumentenversion existieren. Es können auch mehrere Dokumentenversionen ausgeliefert werden."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion/Language>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "Language"^^xsd:string ;
+  rdfs:label "Language"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion/Language> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Sprache"@de, "Language"@en ;
+    ns14:shortName "Language"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "Eine Liste der im Dokument verwendeten Sprachen."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "Title"^^xsd:string ;
+  rdfs:label "Title"^^xsd:string ;
+  ns0:category "CONSTANT"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Titel"@de, "Title"@en ;
+    ns14:shortName "Title"@en ;
+    ns14:datatype "STRING_TRANSLATABLE"^^xsd:string ;
+    ns14:definition "Sprachabhängiger Titel des Dokuments."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/LifeCycleStatus/SetDate>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "Date"^^xsd:string ;
+  rdfs:label "Date"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/LifeCycleStatus/SetDate> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Set Date"@en ;
+    ns14:shortName "SetDate"@en ;
+    ns14:datatype "DATE"^^xsd:string ;
+    ns14:definition "Datum und Uhrzeit, an dem der Status festgelegt wurde. Es muss das Datumsformat „YYYY-MM-dd“ verwendet werden (Y = Jahr, M = Monat, d = Tag, siehe ISO 8601)."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersionId/Val>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "DocumentVersionIdValue"^^xsd:string ;
+  rdfs:label "DocumentVersionIdValue"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersionId/Val> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "DocumentVersionId"@en ;
+    ns14:shortName "DocumentVersionId"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "Verschiedene Versionen eines Dokuments müssen eindeutig identifizierbar sein. Die DocumentVersionId stellt eine innerhalb einer Domäne eindeutige Versionsidentifikationsnummer dar."@de
+  ] .
+
+<http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/StoredDocumentRepresentation/DigitalFile>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "DigitalFile"^^xsd:string ;
+  rdfs:label "DigitalFile"^^xsd:string ;
+  ns4:identification <http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/StoredDocumentRepresentation/DigitalFile> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Digital File"@en ;
+    ns14:shortName "DigitalFile"@en ;
+    ns14:datatype "FILE"^^xsd:string ;
+    ns14:definition "Eine Datei, die die DocumentVersion repräsentiert. Neben der obligatorischen PDF/A Datei können weitere Dateien angegeben werden."@de
+  ] .
+
+<http://i40.customer.com/type/1/1/F13E8576F6488342/MaxRotationSpeed>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "MaxRotationSpeed"^^xsd:string ;
+  rdfs:label "MaxRotationSpeed"^^xsd:string ;
+  ns0:category "PROPERTY"^^xsd:string ;
+  ns4:identification [
+    ns15:id "0173-1#02-BAA120#008"^^xsd:string ;
+    ns15:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+  ] ;
+  ns4:administration [
+    a <http://admin-shell.io/aas/2/0/AdministrativeInformation> ;
+    ns16:revision ""^^xsd:string
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "max. Drehzahl"@de, "Max. rotation speed"@en ;
+    ns14:unit "1/min"^^xsd:string ;
+    ns14:unitId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+        ns3:local false ;
+        ns3:value "0173-1#05-AAA650#002"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns14:datatype "INTEGER_MEASURE"^^xsd:string ;
+    ns14:definition "Höchste zulässige Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben werden darf"@de, "Greatest permissible rotation speed with which the motor or feeding unit may be operated"@en
+  ] .
+
+<http://i40.customer.com/type/1/1/F13E8576F6488342/MaxTorque>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "MaxTorque"^^xsd:string ;
+  rdfs:label "MaxTorque"^^xsd:string ;
+  ns0:category "PROPERTY"^^xsd:string ;
+  ns4:identification [
+    ns15:id "0173-1#02-BAE098#004"^^xsd:string ;
+    ns15:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Max. torque"@en, "max. Drehmoment"@de ;
+    ns14:unit "Nm"^^xsd:string ;
+    ns14:unitId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+        ns3:local false ;
+        ns3:value "0173-1#05-AAA212#003"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns14:datatype "REAL_MEASURE"^^xsd:string ;
+    ns14:definition "Größtes mechanisch zulässiges Drehmoment, welches der Motor an der Abtriebswelle abgeben kann"@de, "Greatest permissible mechanical torque which the motor can pass on at the drive shaft"@en
+  ] .
+
+<http://customer.com/cd/1/1/18EBD56F6B43D895>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "RotationSpeed"^^xsd:string ;
+  rdfs:label "RotationSpeed"^^xsd:string ;
+  ns0:category "PROPERTY"^^xsd:string ;
+  ns4:identification <http://customer.com/cd/1/1/18EBD56F6B43D895> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Aktuelle Drehzahl"@de, "Actual rotation speed"@en ;
+    ns14:shortName "RotationSpeed"@en ;
+    ns14:unit "1/min"^^xsd:string ;
+    ns14:unitId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+        ns3:local false ;
+        ns3:value "0173-1#05-AAA650#002"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns14:datatype "INTEGER_MEASURE"^^xsd:string ;
+    ns14:definition "Aktuelle Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben wird"@de, "Actual rotation speed with which the motor or feeding unit is operated"@en
+  ] .
+
+<http://customer.com/cd/1/1/18EBD56F6B43D896>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "Torque"^^xsd:string ;
+  rdfs:label "Torque"^^xsd:string ;
+  ns0:category "PROPERTY"^^xsd:string ;
+  ns4:identification <http://customer.com/cd/1/1/18EBD56F6B43D896> ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Drehmoment"@de, "Torque"@en ;
+    ns14:shortName "Torque"@en ;
+    ns14:unit "Nm"^^xsd:string ;
+    ns14:unitId [
+      a <http://admin-shell.io/aas/2/0/Reference> ;
+      ns2:key [
+        a <http://admin-shell.io/aas/2/0/Key> ;
+        ns3:index 0 ;
+        ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+        ns3:local false ;
+        ns3:value "0173-1#05-AAA212#003"^^xsd:string ;
+        ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+      ]
+    ] ;
+    ns14:datatype "REAL_MEASURE"^^xsd:string ;
+    ns14:definition "Aktuelles Drehmoment, welches der Motor an der Abtriebswelle abgibt"@de, "Actual mechanical torque which the motor passes on at the drive shaft"@en
+  ] .
+
+<http://i40.customer.com/type/1/1/F13E8576F6488342/0173-1#0173-1#02-BAE122#006>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "CoolingType"^^xsd:string ;
+  rdfs:label "CoolingType"^^xsd:string ;
+  ns0:category "PROPERTY"^^xsd:string ;
+  ns4:identification [
+    ns15:id "0173-1#02-BAE122#006"^^xsd:string ;
+    ns15:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "Art der Kühlung"@de, "Cooling type"@en ;
+    ns14:datatype "STRING"^^xsd:string ;
+    ns14:definition "Zusammenfassung verschiedener Kühlarten, um für Suchmerkmale zu einer begrenzten Auswahl zu kommen"@de, "Summary of various types of cooling, for use as search criteria that limit a selection"@en
+  ] .
+
+<http://i40.customer.com/type/1/1/F13E8576F6488342/BAB657>
+  a <http://admin-shell.io/aas/2/0/ConceptDescription> ;
+  ns0:idShort "BAB657"^^xsd:string ;
+  rdfs:label "BAB657"^^xsd:string ;
+  ns0:category "VALUE"^^xsd:string ;
+  ns4:identification [
+    ns15:id "0173-1#07-BAB657#003"^^xsd:string ;
+    ns15:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRDI>
+  ] ;
+  ns12:dataSpecification [
+    a <http://admin-shell.io/aas/2/0/Reference> ;
+    ns2:key [
+      a <http://admin-shell.io/aas/2/0/Key> ;
+      ns3:index 0 ;
+      ns3:type <http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE> ;
+      ns3:local false ;
+      ns3:value <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360> ;
+      ns3:idType <http://admin-shell.io/aas/2/0/IdentifierType/IRI>
+    ]
+  ] ;
+  ns13:content [
+    a <http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360> ;
+    ns14:preferredName "offener Kreis, Fremdkühlung"@de, "open circuit, external cooling"@en ;
+    ns14:datatype "STRING"^^xsd:string
+  ] .

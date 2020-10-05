@@ -1,0 +1,4687 @@
+[
+    {
+        "@id": "_:b0",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b5"
+            }
+        ]
+    },
+    {
+        "@id": "_:b1",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b6"
+            }
+        ]
+    },
+    {
+        "@id": "_:b10",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b11"
+            }
+        ]
+    },
+    {
+        "@id": "_:b100",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b102"
+            }
+        ]
+    },
+    {
+        "@id": "_:b101",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Document Version",
+                "@language": "en"
+            },
+            {
+                "@value": "Version des Dokuments",
+                "@language": "de"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "DocumentVersion",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Zu jedem Dokument muss eine Menge von mindestens einer Dokumentenversion existieren. Es können auch mehrere Dokumentenversionen ausgeliefert werden.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b102",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b103",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b105"
+            }
+        ]
+    },
+    {
+        "@id": "_:b104",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Sprache",
+                "@language": "de"
+            },
+            {
+                "@value": "Language",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "Language",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Eine Liste der im Dokument verwendeten Sprachen.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b105",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b106",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b108"
+            }
+        ]
+    },
+    {
+        "@id": "_:b107",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Titel",
+                "@language": "de"
+            },
+            {
+                "@value": "Title",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "Title",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING_TRANSLATABLE"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Sprachabhängiger Titel des Dokuments.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b108",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b109",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b111"
+            }
+        ]
+    },
+    {
+        "@id": "_:b11",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b110",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Set Date",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "SetDate",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "DATE"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Datum und Uhrzeit, an dem der Status festgelegt wurde. Es muss das Datumsformat „YYYY-MM-dd“ verwendet werden (Y = Jahr, M = Monat, d = Tag, siehe ISO 8601).",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b111",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b112",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b114"
+            }
+        ]
+    },
+    {
+        "@id": "_:b113",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "DocumentVersionId",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "DocumentVersionId",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Verschiedene Versionen eines Dokuments müssen eindeutig identifizierbar sein. Die DocumentVersionId stellt eine innerhalb einer Domäne eindeutige Versionsidentifikationsnummer dar.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b114",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b115",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b117"
+            }
+        ]
+    },
+    {
+        "@id": "_:b116",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Digital File",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "DigitalFile",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "FILE"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Eine Datei, die die DocumentVersion repräsentiert. Neben der obligatorischen PDF/A Datei können weitere Dateien angegeben werden.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b117",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b118",
+        "http://admin-shell.io/aas/2/0/Identifier/id": [
+            {
+                "@value": "0173-1#02-BAA120#008"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifier/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b119",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/AdministrativeInformation"
+        ],
+        "http://admin-shell.io/aas/2/0/AdministrativeInformation/revision": [
+            {
+                "@value": ""
+            }
+        ]
+    },
+    {
+        "@id": "_:b12",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b17"
+            }
+        ]
+    },
+    {
+        "@id": "_:b120",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "max. Drehzahl",
+                "@language": "de"
+            },
+            {
+                "@value": "Max. rotation speed",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/unit": [
+            {
+                "@value": "1/min"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/unitId": [
+            {
+                "@id": "_:b121"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "INTEGER_MEASURE"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Höchste zulässige Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben werden darf",
+                "@language": "de"
+            },
+            {
+                "@value": "Greatest permissible rotation speed with which the motor or feeding unit may be operated",
+                "@language": "en"
+            }
+        ]
+    },
+    {
+        "@id": "_:b121",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b122"
+            }
+        ]
+    },
+    {
+        "@id": "_:b122",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#05-AAA650#002"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b123",
+        "http://admin-shell.io/aas/2/0/Identifier/id": [
+            {
+                "@value": "0173-1#02-BAE098#004"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifier/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b124",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Max. torque",
+                "@language": "en"
+            },
+            {
+                "@value": "max. Drehmoment",
+                "@language": "de"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/unit": [
+            {
+                "@value": "Nm"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/unitId": [
+            {
+                "@id": "_:b125"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "REAL_MEASURE"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Größtes mechanisch zulässiges Drehmoment, welches der Motor an der Abtriebswelle abgeben kann",
+                "@language": "de"
+            },
+            {
+                "@value": "Greatest permissible mechanical torque which the motor can pass on at the drive shaft",
+                "@language": "en"
+            }
+        ]
+    },
+    {
+        "@id": "_:b125",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b126"
+            }
+        ]
+    },
+    {
+        "@id": "_:b126",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#05-AAA212#003"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b127",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b129"
+            }
+        ]
+    },
+    {
+        "@id": "_:b128",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Aktuelle Drehzahl",
+                "@language": "de"
+            },
+            {
+                "@value": "Actual rotation speed",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "RotationSpeed",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/unit": [
+            {
+                "@value": "1/min"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/unitId": [
+            {
+                "@id": "_:b130"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "INTEGER_MEASURE"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Aktuelle Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben wird",
+                "@language": "de"
+            },
+            {
+                "@value": "Actual rotation speed with which the motor or feeding unit is operated",
+                "@language": "en"
+            }
+        ]
+    },
+    {
+        "@id": "_:b129",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b13",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/Manufacturer"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Manufacturer"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Manufacturer"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b18"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "CUSTOMER GmbH"
+            }
+        ]
+    },
+    {
+        "@id": "_:b130",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b131"
+            }
+        ]
+    },
+    {
+        "@id": "_:b131",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#05-AAA650#002"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b132",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b134"
+            }
+        ]
+    },
+    {
+        "@id": "_:b133",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Drehmoment",
+                "@language": "de"
+            },
+            {
+                "@value": "Torque",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "Torque",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/unit": [
+            {
+                "@value": "Nm"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/unitId": [
+            {
+                "@id": "_:b135"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "REAL_MEASURE"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Aktuelles Drehmoment, welches der Motor an der Abtriebswelle abgibt",
+                "@language": "de"
+            },
+            {
+                "@value": "Actual mechanical torque which the motor passes on at the drive shaft",
+                "@language": "en"
+            }
+        ]
+    },
+    {
+        "@id": "_:b134",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b135",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b136"
+            }
+        ]
+    },
+    {
+        "@id": "_:b136",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#05-AAA212#003"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b137",
+        "http://admin-shell.io/aas/2/0/Identifier/id": [
+            {
+                "@value": "0173-1#02-BAE122#006"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifier/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b138",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Art der Kühlung",
+                "@language": "de"
+            },
+            {
+                "@value": "Cooling type",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Zusammenfassung verschiedener Kühlarten, um für Suchmerkmale zu einer begrenzten Auswahl zu kommen",
+                "@language": "de"
+            },
+            {
+                "@value": "Summary of various types of cooling, for use as search criteria that limit a selection",
+                "@language": "en"
+            }
+        ]
+    },
+    {
+        "@id": "_:b139",
+        "http://admin-shell.io/aas/2/0/Identifier/id": [
+            {
+                "@value": "0173-1#07-BAB657#003"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifier/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b14",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/GLN"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "GLN"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "GLN"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b20"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": 10101010
+            }
+        ]
+    },
+    {
+        "@id": "_:b140",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b142"
+            }
+        ]
+    },
+    {
+        "@id": "_:b141",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "offener Kreis, Fremdkühlung",
+                "@language": "de"
+            },
+            {
+                "@value": "open circuit, external cooling",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ]
+    },
+    {
+        "@id": "_:b142",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b15",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/MultiLanguageProperty"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/ProductDesignation"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "ProductDesignation"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "ProductDesignation"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b22"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "I40 Capable Servo Motor",
+                "@language": "en"
+            }
+        ]
+    },
+    {
+        "@id": "_:b16",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/SerialNumber"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "SerialNumber"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "SerialNumber"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b24"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "P12345678I40",
+                "@language": "en"
+            }
+        ]
+    },
+    {
+        "@id": "_:b17",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#01-ADN198#009"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b18",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b19"
+            }
+        ]
+    },
+    {
+        "@id": "_:b19",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#02-AAO677#002"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b2",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b7"
+            }
+        ]
+    },
+    {
+        "@id": "_:b20",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b21"
+            }
+        ]
+    },
+    {
+        "@id": "_:b21",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#02-AAY812#001"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b22",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b23"
+            }
+        ]
+    },
+    {
+        "@id": "_:b23",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#02-AAW338#001"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b24",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b25"
+            }
+        ]
+    },
+    {
+        "@id": "_:b25",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#02-AAM556#002"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b26",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b30"
+            }
+        ]
+    },
+    {
+        "@id": "_:b27",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/MaxRotationSpeed"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "MaxRotationSpeed"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "MaxRotationSpeed"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/PARAMETER"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b31"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": 5000
+            }
+        ]
+    },
+    {
+        "@id": "_:b28",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/MaxTorque"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "MaxTorque"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "MaxTorque"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/PARAMETER"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b33"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "200",
+                "@type": "http://www.w3.org/2001/XMLSchema#float"
+            }
+        ]
+    },
+    {
+        "@id": "_:b29",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/CoolingType"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "CoolingType"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "CoolingType"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/PARAMETER"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/description": [
+            {
+                "@value": "open circuit, external cooling",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "open circuit, external cooling",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b35"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "BAB657"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/valueId": [
+            {
+                "@id": "_:b36"
+            }
+        ]
+    },
+    {
+        "@id": "_:b3",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b8"
+            }
+        ]
+    },
+    {
+        "@id": "_:b30",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#01-AFZ615#016"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b31",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b32"
+            }
+        ]
+    },
+    {
+        "@id": "_:b32",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#02-BAA120#008"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b33",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b34"
+            }
+        ]
+    },
+    {
+        "@id": "_:b34",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#02-BAE098#004"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b35",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b37"
+            }
+        ]
+    },
+    {
+        "@id": "_:b36",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b38"
+            }
+        ]
+    },
+    {
+        "@id": "_:b37",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#02-BAE122#006"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b38",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#07-BAB657#003"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b39",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/SubmodelElementCollection"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "OperatingManual"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "OperatingManual"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b40"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Submodel/submodelElement": [
+            {
+                "@id": "_:b41"
+            },
+            {
+                "@id": "_:b42"
+            },
+            {
+                "@id": "_:b43"
+            },
+            {
+                "@id": "_:b44"
+            },
+            {
+                "@id": "_:b45"
+            },
+            {
+                "@id": "_:b46"
+            },
+            {
+                "@id": "_:b47"
+            },
+            {
+                "@id": "_:b48"
+            },
+            {
+                "@id": "_:b49"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/SubmodelElementCollection/ordered": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/SubmodelElementCollection/allowDuplicates": [
+            {
+                "@value": false
+            }
+        ]
+    },
+    {
+        "@id": "_:b4",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b9"
+            }
+        ]
+    },
+    {
+        "@id": "_:b40",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b50"
+            }
+        ]
+    },
+    {
+        "@id": "_:b41",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentId"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentId"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentId"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b51"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "3 608 870 A47"
+            }
+        ]
+    },
+    {
+        "@id": "_:b42",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassId"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentClassId"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentClassId"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b53"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "03-02"
+            }
+        ]
+    },
+    {
+        "@id": "_:b43",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/MultiLanguageProperty"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentClassName"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentClassName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b55"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "Operation",
+                "@language": "en"
+            },
+            {
+                "@value": "Bedienung",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b44",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassificationSystem"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentClassificationSystem"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentClassificationSystem"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b57"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "VDI2770:2018"
+            }
+        ]
+    },
+    {
+        "@id": "_:b45",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/OrganizationName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "OrganizationName"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "OrganizationName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b59"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "CUSTOMER"
+            }
+        ]
+    },
+    {
+        "@id": "_:b46",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/OrganizationOfficialName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "OrganizationOfficialName"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "OrganizationOfficialName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b61"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "CUSTOMER GmbH"
+            }
+        ]
+    },
+    {
+        "@id": "_:b47",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/Title"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Title"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Title"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b63"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "Operating Manual"
+            }
+        ]
+    },
+    {
+        "@id": "_:b48",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/Language"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Language"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Language"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b65"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "en-US"
+            }
+        ]
+    },
+    {
+        "@id": "_:b49",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/File"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DigitalFile_PDF"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DigitalFile_PDF"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DigitalFile_PDF"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "PARAMETER"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b67"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/File/mimeType": [
+            {
+                "@value": "application/pdf"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "/aasx/OperatingManual.pdf"
+            }
+        ]
+    },
+    {
+        "@id": "_:b5",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/ASSET"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://customer.com/assets/KHBVZJSQKIY"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b50",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b51",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b52"
+            }
+        ]
+    },
+    {
+        "@id": "_:b52",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentId/Val"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b53",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b54"
+            }
+        ]
+    },
+    {
+        "@id": "_:b54",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassId"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b55",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b56"
+            }
+        ]
+    },
+    {
+        "@id": "_:b56",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b57",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b58"
+            }
+        ]
+    },
+    {
+        "@id": "_:b58",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassificationSystem"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b59",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b60"
+            }
+        ]
+    },
+    {
+        "@id": "_:b6",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b60",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b61",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b62"
+            }
+        ]
+    },
+    {
+        "@id": "_:b62",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationOfficialName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b63",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b64"
+            }
+        ]
+    },
+    {
+        "@id": "_:b64",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b65",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b66"
+            }
+        ]
+    },
+    {
+        "@id": "_:b66",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion/Language"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b67",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b68"
+            }
+        ]
+    },
+    {
+        "@id": "_:b68",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b69",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b72"
+            }
+        ]
+    },
+    {
+        "@id": "_:b7",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b70",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935/RotationSpeed"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "RotationSpeed"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "RotationSpeed"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/VARIABLE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b73"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": 4370
+            }
+        ]
+    },
+    {
+        "@id": "_:b71",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Property"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject": [
+            {
+                "@id": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935/Torque"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Torque"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Torque"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Property/category": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/Category/VARIABLE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b75"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "117.4",
+                "@type": "http://www.w3.org/2001/XMLSchema#float"
+            }
+        ]
+    },
+    {
+        "@id": "_:b72",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#01-AFZ615#016"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b73",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b74"
+            }
+        ]
+    },
+    {
+        "@id": "_:b74",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://customer.com/cd/1/1/18EBD56F6B43D895"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b75",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b76"
+            }
+        ]
+    },
+    {
+        "@id": "_:b76",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://customer.com/cd/1/1/18EBD56F6B43D896"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b77",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b79"
+            }
+        ]
+    },
+    {
+        "@id": "_:b78",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Document",
+                "@language": "en"
+            },
+            {
+                "@value": "Dokument",
+                "@language": "de"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "Document",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/sourceOfDefinition": [
+            {
+                "@value": "[ISO 15519-1:2010]"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "ENTITY"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Feste und geordnete Menge von für die Verwendung durch Personen bestimmte Informationen, die verwaltet und als Einheit zwischen Benutzern und System ausgetauscht werden kann.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b79",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b8",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b80",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b82"
+            }
+        ]
+    },
+    {
+        "@id": "_:b81",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Document Id",
+                "@language": "en"
+            },
+            {
+                "@value": "Dokumenten ID",
+                "@language": "de"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "DocumentId",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "die eigentliche Identifikationsnummer",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b82",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b83",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b85"
+            }
+        ]
+    },
+    {
+        "@id": "_:b84",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Document Class Id",
+                "@language": "en"
+            },
+            {
+                "@value": "Dokumentenklassen ID",
+                "@language": "de"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "DocumentClassId",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Eindeutige ID der Klasse in einer Klassifikation.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b85",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b86",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b88"
+            }
+        ]
+    },
+    {
+        "@id": "_:b87",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Document Class Name",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "DocumentClassName",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING_TRANSLATABLE"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Liste von sprachabhängigen Namen zur ClassId.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b88",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b89",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b91"
+            }
+        ]
+    },
+    {
+        "@id": "_:b9",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/1A7B62B529F19152"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b90",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "Classification System",
+                "@language": "en"
+            },
+            {
+                "@value": "Klassifikationssystem",
+                "@language": "de"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "DocumentClassificationSystem",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Eindeutige Kennung für ein Klassifikationssystem. Für Klassifikationen nach VDI 2770 muss 'VDI2770:2018' verwenden werden.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b91",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b92",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b94"
+            }
+        ]
+    },
+    {
+        "@id": "_:b93",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "gebräuchliche Bezeichnung für Organisation",
+                "@language": "de"
+            },
+            {
+                "@value": "organization name",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "OrganizationName",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Die gebräuchliche Bezeichnung für die Organisation.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b94",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b95",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b98"
+            }
+        ]
+    },
+    {
+        "@id": "_:b96",
+        "@type": [
+            "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/preferredName": [
+            {
+                "@value": "offizieller Name der Organisation",
+                "@language": "de"
+            },
+            {
+                "@value": "official name of the organization",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/shortName": [
+            {
+                "@value": "OrganizationOfficialName",
+                "@language": "en"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/datatype": [
+            {
+                "@value": "STRING"
+            }
+        ],
+        "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360/definition": [
+            {
+                "@value": "Der offizielle Name der Organisation.",
+                "@language": "de"
+            }
+        ]
+    },
+    {
+        "@id": "_:b97",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Reference"
+        ],
+        "http://admin-shell.io/aas/2/0/Reference/key": [
+            {
+                "@id": "_:b99"
+            }
+        ]
+    },
+    {
+        "@id": "_:b98",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": false
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+            }
+        ]
+    },
+    {
+        "@id": "_:b99",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Key"
+        ],
+        "http://admin-shell.io/aas/2/0/Key/index": [
+            {
+                "@value": 0
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/type": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/local": [
+            {
+                "@value": true
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/value": [
+            {
+                "@value": "0173-1#02-AAO677#002"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Key/idType": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+            }
+        ]
+    },
+    {
+        "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360"
+    },
+    {
+        "@id": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0/DataSpecificationIEC61360"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/AdministrativeInformation"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/Asset"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/AssetAdministrationShell"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/AssetKind/INSTANCE"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/Category/CONSTANT"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/Category/PARAMETER"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/Category/VARIABLE"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/ConceptDescription"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/File"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/ASSET"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/CONCEPT_DESCRIPTION"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/IdentifiableElements/SUBMODEL"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRDI"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/IdentifierType/IRI"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/Key"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/KeyElements/GLOBAL_REFERENCE"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/MultiLanguageProperty"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/Property"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/Reference"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/Submodel"
+    },
+    {
+        "@id": "http://admin-shell.io/aas/2/0/SubmodelElementCollection"
+    },
+    {
+        "@id": "http://customer.com/aas/9175_7013_7091_9168",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/AssetAdministrationShell"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "ExampleMotor"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "ExampleMotor"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/description": [
+            {
+                "@value": "A very short description of the AAS instance.",
+                "@language": "en"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "A very short description of the AAS instance."
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/AssetAdministrationShell/asset": [
+            {
+                "@id": "_:b0"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/AssetAdministrationShell/submodel": [
+            {
+                "@id": "_:b1"
+            },
+            {
+                "@id": "_:b2"
+            },
+            {
+                "@id": "_:b3"
+            },
+            {
+                "@id": "_:b4"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://customer.com/aas/9175_7013_7091_9168"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ]
+    },
+    {
+        "@id": "http://customer.com/assets/KHBVZJSQKIY",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Asset"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "ServoDCMotor"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "ServoDCMotor"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://customer.com/assets/KHBVZJSQKIY"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Asset/assetIdentificationModel": [
+            {
+                "@id": "_:b10"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Asset/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/AssetKind/INSTANCE"
+            }
+        ]
+    },
+    {
+        "@id": "http://customer.com/cd/1/1/18EBD56F6B43D895",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "RotationSpeed"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "RotationSpeed"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "PROPERTY"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://customer.com/cd/1/1/18EBD56F6B43D895"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b127"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b128"
+            }
+        ]
+    },
+    {
+        "@id": "http://customer.com/cd/1/1/18EBD56F6B43D896",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Torque"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Torque"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "PROPERTY"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://customer.com/cd/1/1/18EBD56F6B43D896"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b132"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b133"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Submodel"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "OperationalData"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "OperationalData"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "VARIABLE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b69"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Submodel/submodelElement": [
+            {
+                "@id": "_:b70"
+            },
+            {
+                "@id": "_:b71"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935/RotationSpeed"
+    },
+    {
+        "@id": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935/Torque"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/1A7B62B529F19152",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Submodel"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Documentation"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Documentation"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/1A7B62B529F19152"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Submodel/submodelElementCollection": [
+            {
+                "@id": "_:b39"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Submodel"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "TechnicalData"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "TechnicalData"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b26"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Submodel/submodelElement": [
+            {
+                "@id": "_:b27"
+            },
+            {
+                "@id": "_:b28"
+            },
+            {
+                "@id": "_:b29"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/CoolingType"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/MaxRotationSpeed"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/MaxTorque"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DigitalFile_PDF"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassId"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassName"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentClassificationSystem"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/DocumentId"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/Language"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/OrganizationName"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/OrganizationOfficialName"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/7A7104BDAB57E184/OperatingManual/Title"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/Submodel"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Identification"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Identification"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/description": [
+            {
+                "@value": "Identification from Manufacturer",
+                "@language": "en"
+            },
+            {
+                "@value": "Hersteller-Identifikation",
+                "@language": "de"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "Identification from Manufacturer",
+                "@language": "en"
+            },
+            {
+                "@value": "Hersteller-Identifikation",
+                "@language": "de"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasSemantics/semanticId": [
+            {
+                "@id": "_:b12"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasKind/kind": [
+            {
+                "@id": "http://admin-shell.io/aas/2/0/ModelingKind/INSTANCE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Submodel/submodelElement": [
+            {
+                "@id": "_:b13"
+            },
+            {
+                "@id": "_:b14"
+            },
+            {
+                "@id": "_:b15"
+            },
+            {
+                "@id": "_:b16"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/0173-1#0173-1#02-BAE122#006",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "CoolingType"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "CoolingType"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "PROPERTY"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "_:b137"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b138"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/BAB657",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "BAB657"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "BAB657"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "VALUE"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "_:b139"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b140"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b141"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/GLN"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/Manufacturer"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/MaxRotationSpeed",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "MaxRotationSpeed"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "MaxRotationSpeed"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "PROPERTY"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "_:b118"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/administration": [
+            {
+                "@id": "_:b119"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b120"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/MaxTorque",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "MaxTorque"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "MaxTorque"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "PROPERTY"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "_:b123"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b124"
+            }
+        ]
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/ProductDesignation"
+    },
+    {
+        "@id": "http://i40.customer.com/type/1/1/F13E8576F6488342/SerialNumber"
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Title"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Title"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Description/Title"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b106"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b107"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Document"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Document"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Document"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b77"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b78"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassId",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentClassId"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentClassId"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassId"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b83"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b84"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassName",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentClassName"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentClassName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b86"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b87"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassificationSystem",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentClassificationSystem"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentClassificationSystem"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentClassification/ClassificationSystem"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b89"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b90"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentId/Val",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentIdValue"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentIdValue"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentId/Val"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b80"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b81"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentVersion"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentVersion"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b100"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b101"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion/Language",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Language"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Language"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersion/Language"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b103"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b104"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersionId/Val",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DocumentVersionIdValue"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DocumentVersionIdValue"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/DocumentVersionId/Val"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b112"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b113"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/LifeCycleStatus/SetDate",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "Date"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "Date"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/LifeCycleStatus/SetDate"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b109"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b110"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationName",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "OrganizationName"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "OrganizationName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b92"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b93"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationOfficialName",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "OrganizationOfficialName"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "OrganizationOfficialName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/category": [
+            {
+                "@value": "CONSTANT"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/Organization/OrganizationOfficialName"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b95"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b96"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/isCaseOf": [
+            {
+                "@id": "_:b97"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/StoredDocumentRepresentation/DigitalFile",
+        "@type": [
+            "http://admin-shell.io/aas/2/0/ConceptDescription"
+        ],
+        "http://admin-shell.io/aas/2/0/Referable/idShort": [
+            {
+                "@value": "DigitalFile"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "DigitalFile"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/Identifiable/identification": [
+            {
+                "@id": "http://www.vdi2770.com/blatt1/Entwurf/Okt18/cd/StoredDocumentRepresentation/DigitalFile"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/HasDataSpecification/dataSpecification": [
+            {
+                "@id": "_:b115"
+            }
+        ],
+        "http://admin-shell.io/aas/2/0/ConceptDescription/content": [
+            {
+                "@id": "_:b116"
+            }
+        ]
+    }
+]
