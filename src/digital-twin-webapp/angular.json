@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "digital-twin-webapp"
+    }
+  },
+  "defaultProject": "digital-twin-webapp",
+  "cli": {
+    "analytics": false
+  }
 }
