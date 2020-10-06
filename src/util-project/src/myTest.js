@@ -4,6 +4,7 @@ exports.MyClass = void 0;
 var i40_aas_objects_1 = require("i40-aas-objects");
 var ReferenceElement_1 = require("i40-aas-objects/dist/src/referables/ReferenceElement");
 var KindEnum_1 = require("i40-aas-objects/dist/src/types/KindEnum");
+var power_plant_model_1 = require("./power_plant.model");
 var MyClass = /** @class */ (function () {
     function MyClass() {
     }
@@ -81,7 +82,7 @@ var MyClass = /** @class */ (function () {
             ]
         }), undefined, KindEnum_1.KindEnum.Template, undefined, undefined, [{ language: 'en', text: 'Current Power Output of the Power Grid' }], 'VARIABLE', undefined));
         // Input lines
-        submodel.addSubmodelElement(new i40_aas_objects_1.SubmodelElementCollection('input_lines', [new ]));
+        // submodel.addSubmodelElement(new SubmodelElementCollection('input_lines', [new]))
         // Output lines
         submodel.addSubmodelElement(new i40_aas_objects_1.Property('Input_Lines', i40_aas_objects_1.AnyAtomicTypeEnum.long, '25000', new i40_aas_objects_1.Reference({
             keys: [
@@ -99,7 +100,8 @@ var MyClass = /** @class */ (function () {
 }());
 exports.MyClass = MyClass;
 var c = new MyClass();
-console.log(JSON.stringify(c.getSubmodelPowerGrid(), null, 3));
+var plant = new power_plant_model_1.PowerPlantModel();
+console.log(JSON.stringify(plant.createAssetAdminShellEnv(), null, 3));
 var run = function () {
     /* Create a Submodel and add a new Property to it*/
     var myAssetIdentificationModel = i40_aas_objects_1.Submodel.fromJSON({

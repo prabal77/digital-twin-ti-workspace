@@ -10,6 +10,7 @@ import { IQualifier } from 'i40-aas-objects/dist/src/baseClasses/Qualifier';
 import { ReferenceElement } from 'i40-aas-objects/dist/src/referables/ReferenceElement';
 import { RelationShipElement } from 'i40-aas-objects/dist/src/referables/RelationshipElement';
 import { KindEnum } from 'i40-aas-objects/dist/src/types/KindEnum';
+import { PowerPlantModel } from './power_plant.model';
 
 export class MyClass {
     public getQualifier() {
@@ -114,7 +115,7 @@ export class MyClass {
             undefined, KindEnum.Template, undefined, undefined, [{ language: 'en', text: 'Current Power Output of the Power Grid' }], 'VARIABLE', undefined
         ));
         // Input lines
-        submodel.addSubmodelElement(new SubmodelElementCollection('input_lines', [new]))
+        // submodel.addSubmodelElement(new SubmodelElementCollection('input_lines', [new]))
         // Output lines
         submodel.addSubmodelElement(new Property(
             'Input_Lines', AnyAtomicTypeEnum.long, '25000', new Reference(
@@ -137,7 +138,8 @@ export class MyClass {
 }
 
 const c = new MyClass();
-console.log(JSON.stringify(c.getSubmodelPowerGrid(), null, 3));
+const plant = new PowerPlantModel();
+console.log(JSON.stringify(plant.createAssetAdminShellEnv(), null, 3));
 
 
 var run = function () {
@@ -174,7 +176,7 @@ var run = function () {
         { id: 'http://test.com/aas/id/aas123', idType: IdTypeEnum.IRDI },
         'identification123',
     ).setAsset(myAsset.getReference());
-    
+
 
     /* Create an environment and add all identifiables */
     var myNewAasEnv = new AssetAdministrationShellEnv()
