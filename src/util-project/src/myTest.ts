@@ -11,6 +11,7 @@ import { ReferenceElement } from 'i40-aas-objects/dist/src/referables/ReferenceE
 import { RelationShipElement } from 'i40-aas-objects/dist/src/referables/RelationshipElement';
 import { KindEnum } from 'i40-aas-objects/dist/src/types/KindEnum';
 import { PowerPlantModel } from './power_plant.model';
+import { WindFarmPowerPlant } from './wind-power-plant';
 
 export class MyClass {
     public getQualifier() {
@@ -139,7 +140,11 @@ export class MyClass {
 
 const c = new MyClass();
 const plant = new PowerPlantModel();
-console.log(JSON.stringify(plant.createAssetAdminShellEnv(), null, 3));
+const powerPlantEnv = plant.createAssetAdminShellEnv();
+// console.log(JSON.stringify(powerPlantEnv, null, 3));
+
+const plant2 = new WindFarmPowerPlant(powerPlantEnv);
+console.log(JSON.stringify(plant2.createAssetAdminShellEnv(), null, 3));
 
 
 var run = function () {

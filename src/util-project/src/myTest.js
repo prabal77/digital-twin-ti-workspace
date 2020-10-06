@@ -5,6 +5,7 @@ var i40_aas_objects_1 = require("i40-aas-objects");
 var ReferenceElement_1 = require("i40-aas-objects/dist/src/referables/ReferenceElement");
 var KindEnum_1 = require("i40-aas-objects/dist/src/types/KindEnum");
 var power_plant_model_1 = require("./power_plant.model");
+var wind_power_plant_1 = require("./wind-power-plant");
 var MyClass = /** @class */ (function () {
     function MyClass() {
     }
@@ -101,7 +102,10 @@ var MyClass = /** @class */ (function () {
 exports.MyClass = MyClass;
 var c = new MyClass();
 var plant = new power_plant_model_1.PowerPlantModel();
-console.log(JSON.stringify(plant.createAssetAdminShellEnv(), null, 3));
+var powerPlantEnv = plant.createAssetAdminShellEnv();
+// console.log(JSON.stringify(powerPlantEnv, null, 3));
+var plant2 = new wind_power_plant_1.WindFarmPowerPlant(powerPlantEnv);
+console.log(JSON.stringify(plant2.createAssetAdminShellEnv(), null, 3));
 var run = function () {
     /* Create a Submodel and add a new Property to it*/
     var myAssetIdentificationModel = i40_aas_objects_1.Submodel.fromJSON({
