@@ -24,11 +24,12 @@ export class AasstoreService {
     }
 
     public addAASObj(obj: AssetAdministrationShell) {
-        if (this.aasDict.has(obj.idShort)) {
+        const id = obj.identification.id;
+        if (this.aasDict.has(id)) {
             throw "Entry already exists";
         }
 
-        this.aasDict.set(obj.idShort, obj);
+        this.aasDict.set(id, obj);
     }
 
     public updateAASObj(id: string, obj: AssetAdministrationShell) {
@@ -61,20 +62,22 @@ export class AasstoreService {
 
     public getAllAASSubmodels(id: string): Submodel[] {
         this.assertAASExists(id);
-        // TODO: resolve submodels
-        // return this.aasDict.get(id).submodels;
-        return [];
+        return this.aasDict.get(id).submodels.map(x => this.submodelDict.get(x.keys[0].value));
     }
 
-    // TODO: finish this
     public getAASSubmodel(aasID: string, submodelID: string): Submodel {
-        // return {};
-        return null;
+        this.assertAASExists(aasID);
+        const submodel = this.aasDict.get(aasID).submodels.find(x => x.keys[0].value === submodelID);
+        if (submodel === null || submodel === undefined) {
+            throw `submodel ${submodelID} not found in aas ${aasID}`;
+        }
+        return this.submodelDict.get(submodelID);
     }
 
-    // TODO: finish this
     public deleteAASSubmodelByID(aasID: string, submodelID: string) {
-
+        this.assertAASExists(aasID);
+        const submodels = this.aasDict.get(aasID).submodels.filter(x => x.keys[0].value !== submodelID);
+        this.aasDict.get(aasID).setSubmodels(submodels);
     }
 
     private assertSubmodelExists(id: string) {
@@ -84,11 +87,12 @@ export class AasstoreService {
     }
 
     public addSubmodel(obj: Submodel) {
-        if (this.submodelDict.has(obj.idShort)) {
-            throw `Submodel by ${obj.idShort} does already exists`;
+        const id = obj.identification.id;
+        if (this.submodelDict.has(id)) {
+            throw `Submodel by ${id} does already exists`;
         }
 
-        this.submodelDict.set(obj.idShort, obj);
+        this.submodelDict.set(id, obj);
     }
 
     public getAllSubmodels(): Submodel[] {
@@ -119,11 +123,12 @@ export class AasstoreService {
     }
 
     public addAsset(obj: Asset) {
-        if (this.assetDict.has(obj.idShort)) {
-            throw `Asset by ${obj.idShort} does already exists`;
+        const id = obj.identification.id;
+        if (this.assetDict.has(id)) {
+            throw `Asset by ${id} does already exists`;
         }
 
-        this.assetDict.set(obj.idShort, obj);
+        this.assetDict.set(id, obj);
     }
 
     public getAllAssets(): Asset[] {
@@ -154,10 +159,11 @@ export class AasstoreService {
     }
 
     public addConceptDescription(obj: ConceptDescription) {
-        if (this.conceptDict.has(obj.idShort)) {
-            throw `ConceptDescription by ${obj.idShort} does already exists`;
+        const id = obj.identification.id;
+        if (this.conceptDict.has(id)) {
+            throw `ConceptDescription by ${id} does already exists`;
         }
-        this.conceptDict.set(obj.idShort, obj);
+        this.conceptDict.set(id, obj);
     }
 
     public getAllConceptDescriptions(): ConceptDescription[] {
