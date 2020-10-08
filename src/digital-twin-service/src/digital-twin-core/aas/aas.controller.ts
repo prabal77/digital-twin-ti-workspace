@@ -1,4 +1,4 @@
-import { Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { AssetAdministrationShell, Reference, Submodel } from 'i40-aas-objects';
 import { identity } from 'rxjs';
 import { AasstoreService } from '../aasstore/aasstore.service';
@@ -8,7 +8,7 @@ export class AasController {
     constructor(private aasStoreService: AasstoreService) { }
 
     @Post()
-    public postAAS(aas: AssetAdministrationShell) {
+    public postAAS(@Body() aas: AssetAdministrationShell) {
         console.log('POST AAS:', aas);
         this.aasStoreService.addAASObj(aas);
     }
@@ -21,7 +21,7 @@ export class AasController {
     }
 
     @Put(':id')
-    public putAAS(@Param('id') id, aas: AssetAdministrationShell) {
+    public putAAS(@Param('id') id, @Body() aas: AssetAdministrationShell) {
         this.aasStoreService.updateAASObj(id, aas);
     }
 
@@ -36,7 +36,7 @@ export class AasController {
     }
 
     @Post(':id/submodel')
-    public postAASSubmodel(@Param('id') id, submodelRef: Reference) {
+    public postAASSubmodel(@Param('id') id, @Body() submodelRef: Reference) {
         this.aasStoreService.addAASSubmodel(id, submodelRef);
     }
 

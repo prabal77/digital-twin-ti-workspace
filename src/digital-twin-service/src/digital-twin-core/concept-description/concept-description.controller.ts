@@ -1,5 +1,5 @@
 import { AasstoreService } from '../aasstore/aasstore.service';
-import { Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { ConceptDescription } from 'i40-aas-objects';
 
 
@@ -8,7 +8,7 @@ export class ConceptDescriptionController {
     constructor(private aasStoreService: AasstoreService) { }
 
     @Post()
-    public postConceptDescription(obj: ConceptDescription) {
+    public postConceptDescription(@Body() obj: ConceptDescription) {
         this.aasStoreService.addConceptDescription(obj);
     }
 
@@ -20,7 +20,7 @@ export class ConceptDescriptionController {
     }
 
     @Put(':id')
-    public putConceptDescription(@Param('id') id, obj: ConceptDescription) {
+    public putConceptDescription(@Param('id') id, @Body() obj: ConceptDescription) {
         this.aasStoreService.updateConceptDescriptionById(id, obj);
     }
 

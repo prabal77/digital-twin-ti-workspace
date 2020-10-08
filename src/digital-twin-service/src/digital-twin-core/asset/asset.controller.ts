@@ -1,4 +1,4 @@
-import { Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { Asset } from 'i40-aas-objects';
 import { AasstoreService } from '../aasstore/aasstore.service';
 
@@ -7,7 +7,7 @@ export class AssetController {
     constructor(private aasStoreService: AasstoreService) { }
 
     @Post()
-    public postAsset(obj: Asset) {
+    public postAsset(@Body() obj: Asset) {
         this.aasStoreService.addAsset(obj);
     }
 
@@ -19,7 +19,7 @@ export class AssetController {
     }
 
     @Put(':id')
-    public putAsset(@Param('id') id, obj: Asset) {
+    public putAsset(@Param('id') id, @Body() obj: Asset) {
         this.aasStoreService.updateAssetById(id, obj);
     }
 

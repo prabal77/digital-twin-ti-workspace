@@ -1,5 +1,6 @@
-import { Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { Submodel } from 'i40-aas-objects';
+import { KindEnum } from 'i40-aas-objects/dist/src/types/KindEnum';
 import { AasstoreService } from '../aasstore/aasstore.service';
 
 @Controller('submodel')
@@ -7,7 +8,8 @@ export class SubmodelController {
     constructor(private aasStoreService: AasstoreService) { }
 
     @Post()
-    public postSubmodel(obj: Submodel) {
+    public postSubmodel(@Body() obj: any) {
+        console.log('POST SUBMODEL2:', obj);
         this.aasStoreService.addSubmodel(obj);
     }
 
@@ -19,7 +21,7 @@ export class SubmodelController {
     }
 
     @Put(':id')
-    public putSubmodel(@Param('id') id, obj: Submodel) {
+    public putSubmodel(@Param('id') id, @Body() obj: Submodel) {
         this.aasStoreService.updateSubmodelById(id, obj);
     }
 
