@@ -27,7 +27,7 @@ async function bootstrap() {
 	const globalPrefix = '';
 	app.setGlobalPrefix(globalPrefix);
 	const port = process.env.PORT || 80;
-	const appName = process.env.APPLICATION || 'twin-local';
+	const appName = process.env.APPLICATION_NAME || 'twin-local';
 	await app.listen(port, () => {
 		Logger.log(`Started "${appName}" application Listening at http://localhost:` + port + '/' + globalPrefix);
 	});
