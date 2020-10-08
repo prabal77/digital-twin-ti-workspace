@@ -1,0 +1,22 @@
+{
+	"assetAdministrationShellList": [
+		{
+			"identification": {
+				"id": "urn:admin-shell.io:aas:2:1:power-plant:1#001",
+				"idType": "IRI"
+			},
+			"description": [],
+			"idShort": "Wind Farm",
+			"category": "MODEL"
+		},
+		{
+			"identification": {
+				"id": "urn:admin-shell.io:aas:2:1:power-plant:1#002",
+				"idType": "IRI"
+			},
+			"description": [],
+			"idShort": "Thermal power plant",
+			"category": "MODEL"
+		}
+	]
+}
