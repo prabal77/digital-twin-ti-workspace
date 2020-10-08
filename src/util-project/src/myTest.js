@@ -103,9 +103,16 @@ exports.MyClass = MyClass;
 var c = new MyClass();
 var plant = new power_plant_model_1.PowerPlantModel();
 var powerPlantEnv = plant.createAssetAdminShellEnv();
-// console.log(JSON.stringify(powerPlantEnv, null, 3));
 var plant2 = new wind_power_plant_1.WindFarmPowerPlant(powerPlantEnv);
-console.log(JSON.stringify(plant2.createAssetAdminShellEnv(), null, 3));
+var shell = plant2.createAssetAdminShellEnv();
+// console.log(JSON.stringify(shell, null, 3));
+var a = shell.getInstance({
+    keys: [{
+            type: 'AssetAdministrationShell', value: 'asdads', idType: "IRI" /* IRI */,
+            local: false
+        }]
+});
+console.log(JSON.stringify(a, null, 3));
 var run = function () {
     /* Create a Submodel and add a new Property to it*/
     var myAssetIdentificationModel = i40_aas_objects_1.Submodel.fromJSON({

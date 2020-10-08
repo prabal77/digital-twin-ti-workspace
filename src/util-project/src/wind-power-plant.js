@@ -3,7 +3,6 @@ exports.__esModule = true;
 exports.WindFarmPowerPlant = void 0;
 var i40_aas_objects_1 = require("i40-aas-objects");
 var AssetKindEnum_1 = require("i40-aas-objects/dist/src/types/AssetKindEnum");
-var KindEnum_1 = require("i40-aas-objects/dist/src/types/KindEnum");
 var WindFarmPowerPlant = /** @class */ (function () {
     function WindFarmPowerPlant(parent) {
         this.parent = parent;
@@ -16,9 +15,10 @@ var WindFarmPowerPlant = /** @class */ (function () {
         var shellEnv = new i40_aas_objects_1.AssetAdministrationShellEnv();
         shellEnv.addAsset(asset);
         shellEnv.addAssetAdministrationShell(aas);
-        // for (let _m of submodels) {
-        //     shellEnv.addSubmodel(_m);
-        // }
+        for (var _i = 0, submodels_1 = submodels; _i < submodels_1.length; _i++) {
+            var _m = submodels_1[_i];
+            shellEnv.addSubmodel(_m);
+        }
         return shellEnv;
     };
     WindFarmPowerPlant.prototype.createAssetAdminShell = function (asset, submodels) {
@@ -26,11 +26,10 @@ var WindFarmPowerPlant = /** @class */ (function () {
         shell.category = 'MODEL';
         shell.modelType = { name: 'AssetAdministrationShell' };
         shell.setAsset(asset.getReference());
-        for (var _i = 0, submodels_1 = submodels; _i < submodels_1.length; _i++) {
-            var _m = submodels_1[_i];
-            _m.kind = KindEnum_1.KindEnum.Instance;
-            shell.addSubmodel(_m.getReference());
-        }
+        // for (let _m of submodels) {
+        //     _m.kind = KindEnum.Instance;
+        //     shell.addSubmodel(_m.getReference());
+        // }
         return shell;
     };
     WindFarmPowerPlant.prototype.createAsset = function () {

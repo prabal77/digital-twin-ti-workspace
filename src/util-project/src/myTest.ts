@@ -141,11 +141,17 @@ export class MyClass {
 const c = new MyClass();
 const plant = new PowerPlantModel();
 const powerPlantEnv = plant.createAssetAdminShellEnv();
-// console.log(JSON.stringify(powerPlantEnv, null, 3));
-
 const plant2 = new WindFarmPowerPlant(powerPlantEnv);
-console.log(JSON.stringify(plant2.createAssetAdminShellEnv(), null, 3));
+const shell = plant2.createAssetAdminShellEnv();
+// console.log(JSON.stringify(shell, null, 3));
 
+const a = shell.getInstance({
+    keys: [{
+        type: 'AssetAdministrationShell', value: 'asdads', idType: IdTypeEnum.IRI
+        , local: false
+    }]
+})
+console.log(JSON.stringify(a, null, 3));
 
 var run = function () {
     /* Create a Submodel and add a new Property to it*/

@@ -10,7 +10,7 @@
          },
          "description": [],
          "idShort": "power plant",
-         "category": "MODEL",
+         "category": "ASSET",
          "submodels": [
             {
                "keys": [
@@ -88,7 +88,7 @@
             }
          ],
          "idShort": "identification",
-         "category": "CONSTANT",
+         "category": "PROPERTY",
          "kind": "Template",
          "submodelElements": [],
          "embeddedDataSpecifications": []
@@ -112,7 +112,7 @@
             }
          ],
          "idShort": "documentation",
-         "category": "CONSTANT",
+         "category": "PROPERTY",
          "kind": "Template",
          "submodelElements": [],
          "embeddedDataSpecifications": []
@@ -136,7 +136,7 @@
             }
          ],
          "idShort": "techicaldata",
-         "category": "CONSTANT",
+         "category": "PROPERTY",
          "kind": "Instance",
          "submodelElements": [
             {
@@ -166,7 +166,8 @@
                         "local": false
                      }
                   ]
-               }
+               },
+			   "value": "30000"
             }
          ],
          "embeddedDataSpecifications": []
@@ -190,7 +191,7 @@
             }
          ],
          "idShort": "operationaldata",
-         "category": "CONSTANT",
+         "category": "PROPERTY",
          "kind": "Template",
          "semanticId": {
             "keys": [
@@ -230,7 +231,8 @@
                         "local": false
                      }
                   ]
-               }
+               },
+			   "value": "30000"
             },
             {
                "idShort": "Power output",

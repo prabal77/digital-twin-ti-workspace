@@ -1,3 +1,15 @@
-<p>home works!</p>
-
-{{ data | async | json}}
+<div class="card-group interact-grid">
+    <div class="col-xs-12 col-md-4" *ngFor="let model of twins">
+        <div class=" card">
+            <div class="card-header separator">
+                <h4 class="card-title">{{model.idShort}}</h4>
+            </div>
+            <div class="card-block">
+                <p>Running Digtal Twin model</p>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary" [routerLink]="['twins', model.identification.id]">Edit</button>
+            </div>
+        </div>
+    </div>
+</div>

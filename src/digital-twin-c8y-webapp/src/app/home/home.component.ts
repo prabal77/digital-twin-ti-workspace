@@ -7,12 +7,13 @@ import { DigitalTwinDataService } from '../digital-twin-data.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  private data: any[];
+  twins: any[];
   constructor(private dataService: DigitalTwinDataService) { }
 
   ngOnInit() {
-    this.dataService.getDigitalTwinModeList().subscribe(_m => {
-      console.log(_m); this.data = _m;
+    this.dataService.getDigitalTwinModeList().subscribe(_d => {
+      console.log('received data ', _d);
+      this.twins = _d;
     });
   }
 

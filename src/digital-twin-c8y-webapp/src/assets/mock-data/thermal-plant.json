@@ -2,7 +2,7 @@
    "assetAdministrationShells": [
       {
          "identification": {
-            "id": "urn:admin-shell.io:aas:2:1:wind-farm",
+            "id": "urn:admin-shell.io:aas:2:1:thermal-plant",
             "idType": "IRI"
          },
          "parent": {
@@ -19,7 +19,7 @@
             "name": "AssetAdministrationShell"
          },
          "description": [],
-         "idShort": "Wind farm power plant",
+         "idShort": "Thermal Power power plant",
          "category": "ASSET",
          "submodels": [
             {
@@ -71,7 +71,7 @@
                   "idType": "IRI",
                   "local": true,
                   "type": "Asset",
-                  "value": "urn:admin-shell.io:asset:2:1:power-plant:bosch:spwd"
+                  "value": "urn:admin-shell.io:asset:2:1:power-plant:hyundai:abcd"
                }
             ]
          },
@@ -83,15 +83,15 @@
    "assets": [
       {
          "identification": {
-            "id": "urn:admin-shell.io:asset:2:1:power-plant:bosch:spwd",
+            "id": "urn:admin-shell.io:asset:2:1:power-plant:hyundai:abcd",
             "idType": "IRI"
          },
          "modelType": {
             "name": "Asset"
          },
          "description": [],
-         "idShort": "Bosch Wind farm power Plant",
-         "kind": "Instance",
+         "idShort": "Hyundai Thermal power Plant",
+         "kind": "Type",
          "embeddedDataSpecifications": []
       }
    ]

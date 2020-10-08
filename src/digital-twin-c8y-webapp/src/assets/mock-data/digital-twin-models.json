@@ -2,7 +2,7 @@
 	"assetAdministrationShellList": [
 		{
 			"identification": {
-				"id": "urn:admin-shell.io:aas:2:1:power-plant:1#001",
+				"id": "urn:admin-shell.io:aas:2:1:wind-farm",
 				"idType": "IRI"
 			},
 			"description": [],
@@ -11,7 +11,7 @@
 		},
 		{
 			"identification": {
-				"id": "urn:admin-shell.io:aas:2:1:power-plant:1#002",
+				"id": "urn:admin-shell.io:aas:2:1:thermal-plant",
 				"idType": "IRI"
 			},
 			"description": [],
