@@ -22,10 +22,13 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@c8y/client": "^1006.6.13",
     "@nestjs/common": "^7.0.0",
     "@nestjs/core": "^7.0.0",
     "@nestjs/mongoose": "^7.0.2",
     "@nestjs/platform-express": "^7.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "i40-aas-objects": "^0.3.6",
     "jsonld": "^3.1.1",
     "mongodb": "^3.6.2",

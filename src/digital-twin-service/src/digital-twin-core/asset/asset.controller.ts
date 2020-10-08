@@ -12,9 +12,9 @@ export class AssetController {
     }
 
     @Get()
-    public getAsset(): { subModelList: Asset[] } {
+    public getAsset(): { assetList: Asset[] } {
         return {
-            subModelList: this.aasStoreService.getAllAssets()
+            assetList: this.aasStoreService.getAllAssets()
         }
     }
 

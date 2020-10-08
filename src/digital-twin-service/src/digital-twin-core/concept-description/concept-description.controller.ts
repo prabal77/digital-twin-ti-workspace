@@ -13,9 +13,9 @@ export class ConceptDescriptionController {
     }
 
     @Get()
-    public getConceptDescription(): { subModelList: ConceptDescription[] } {
+    public getConceptDescription(): { conceptDescriptionList: ConceptDescription[] } {
         return {
-            subModelList: this.aasStoreService.getAllConceptDescriptions()
+            conceptDescriptionList: this.aasStoreService.getAllConceptDescriptions()
         }
     }
 

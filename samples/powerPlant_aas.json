@@ -1,0 +1,67 @@
+{
+    "identification": {
+        "id": "urn:admin-shell.io:aas:2:1:power-plant",
+        "idType": "IRI"
+    },
+    "modelType": {
+        "name": "AssetAdministrationShell"
+    },
+    "description": [],
+    "idShort": "power plant",
+    "category": "MODEL",
+    "submodels": [
+        {
+            "keys": [
+                {
+                    "idType": "IRI",
+                    "local": true,
+                    "type": "Submodel",
+                    "value": "urn:admin-shell.io:identification:2:1"
+                }
+            ]
+        },
+        {
+            "keys": [
+                {
+                    "idType": "IRI",
+                    "local": true,
+                    "type": "Submodel",
+                    "value": "urn:admin-shell.io:documentation:2:1"
+                }
+            ]
+        },
+        {
+            "keys": [
+                {
+                    "idType": "IRI",
+                    "local": true,
+                    "type": "Submodel",
+                    "value": "urn:admin-shell.io:technicaldata:2:1:#001"
+                }
+            ]
+        },
+        {
+            "keys": [
+                {
+                    "idType": "IRI",
+                    "local": true,
+                    "type": "Submodel",
+                    "value": "urn:admin-shell.io:operationaldata:2:1"
+                }
+            ]
+        }
+    ],
+    "conceptDictionaries": [],
+    "views": [],
+    "asset": {
+        "keys": [
+            {
+                "idType": "IRI",
+                "local": true,
+                "type": "Asset",
+                "value": "urn:admin-shell.io:asset:2:1:power-plant:bosch"
+            }
+        ]
+    },
+    "embeddedDataSpecifications": []
+}

@@ -4,6 +4,7 @@ import { DigitalTwinCoreModule } from './digital-twin-core/digital-twin-core.mod
 import { Dbconnection } from './dbconnection';
 import { AasstoreService } from './digital-twin-core/aasstore/aasstore.service';
 
+
 @Module({
   imports: [DigitalTwinCoreModule],
   controllers: [AppController],

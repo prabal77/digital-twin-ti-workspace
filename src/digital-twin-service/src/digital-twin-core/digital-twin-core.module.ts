@@ -12,9 +12,10 @@ import { ConceptDescriptionProvider } from './providers/concept-description-prov
 import { AasxPackage } from './providers/aasx-package';
 import { AasxPackageController } from './aasx-package/aasx-package.controller';
 import { AasstoreService } from './aasstore/aasstore.service';
+import { HealthController } from './health/health.controller';
 
 @Module({
-  controllers: [AasEnvironmentController, AasController, SubmodelController, ConceptDescriptionController, AssetController, AasxPackageController],
+  controllers: [AasEnvironmentController, AasController, SubmodelController, ConceptDescriptionController, AssetController, AasxPackageController, HealthController],
   providers: [AasProvider, AasEnvProvider, SubmodelProvider, AssetProvider, ConceptDescriptionProvider, AasxPackage, AasstoreService]
 })
 export class DigitalTwinCoreModule { }

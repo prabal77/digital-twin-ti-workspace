@@ -27,7 +27,7 @@ export class AasController {
 
     @Get(':id')
     public getAASByID(@Param('id') id): AssetAdministrationShell {
-        return this.aasStoreService.getAASObjByShortId(id);
+        return this.aasStoreService.getAASObjByID(id);
     }
 
     @Delete(':id')

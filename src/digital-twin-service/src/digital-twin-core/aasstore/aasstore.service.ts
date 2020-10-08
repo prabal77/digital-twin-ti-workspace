@@ -43,7 +43,7 @@ export class AasstoreService {
         return l;
     }
 
-    public getAASObjByShortId(id: string): AssetAdministrationShell {
+    public getAASObjByID(id: string): AssetAdministrationShell {
         this.assertAASExists(id);
 
         return this.aasDict.get(id);
