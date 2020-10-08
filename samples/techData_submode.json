@@ -1,0 +1,54 @@
+{
+    "identification": {
+        "idType": "IRI",
+        "id": "urn:admin-shell.io:technicaldata:2:1:#001"
+    },
+    "administration": {
+        "revision": "1",
+        "version": "1"
+    },
+    "modelType": {
+        "name": "Submodel"
+    },
+    "description": [
+        {
+            "language": "en",
+            "text": "Technical Data Submodel"
+        }
+    ],
+    "idShort": "techicaldata",
+    "category": "CONSTANT",
+    "kind": "Instance",
+    "submodelElements": [
+        {
+            "idShort": "maximum power output",
+            "parent": {
+                "keys": [
+                    {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:technicaldata:2:1:#001"
+                    }
+                ]
+            },
+            "description": [],
+            "modelType": {
+                "name": "Property"
+            },
+            "kind": "Instance",
+            "valueType": "long",
+            "valueId": {
+                "keys": [
+                    {
+                        "idType": "IRDI",
+                        "value": "0173-1#02-AAW133#002",
+                        "type": "GlobalReference",
+                        "local": false
+                    }
+                ]
+            }
+        }
+    ],
+    "embeddedDataSpecifications": []
+}

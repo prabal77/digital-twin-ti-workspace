@@ -1,0 +1,13 @@
+{
+    "identification": {
+        "id": "urn:admin-shell.io:asset:2:1:power-plant:bosch",
+        "idType": "IRI"
+    },
+    "modelType": {
+        "name": "Asset"
+    },
+    "description": [],
+    "idShort": "Bosch Electric Power Plant",
+    "kind": "Type",
+    "embeddedDataSpecifications": []
+}

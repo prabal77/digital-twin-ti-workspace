@@ -1,7 +1,7 @@
 import { Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { AssetAdministrationShell, Reference, Submodel } from 'i40-aas-objects';
 import { identity } from 'rxjs';
-import { AasstoreService } from 'src/aasstore/aasstore.service';
+import { AasstoreService } from '../aasstore/aasstore.service';
 
 @Controller('aas')
 export class AasController {
@@ -9,6 +9,7 @@ export class AasController {
 
     @Post()
     public postAAS(aas: AssetAdministrationShell) {
+        console.log('POST AAS:', aas);
         this.aasStoreService.addAASObj(aas);
     }
 

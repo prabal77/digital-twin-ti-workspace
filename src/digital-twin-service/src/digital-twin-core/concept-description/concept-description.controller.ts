@@ -1,4 +1,4 @@
-import { AasstoreService } from 'src/aasstore/aasstore.service';
+import { AasstoreService } from '../aasstore/aasstore.service';
 import { Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { ConceptDescription } from 'i40-aas-objects';
 

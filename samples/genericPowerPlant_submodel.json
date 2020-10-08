@@ -1,0 +1,24 @@
+{
+    "identification": {
+        "idType": "IRI",
+        "id": "urn:admin-shell.io:identification:2:1"
+    },
+    "administration": {
+        "revision": "1",
+        "version": "1"
+    },
+    "modelType": {
+        "name": "Submodel"
+    },
+    "description": [
+        {
+            "language": "en",
+            "text": "Generic Electric power generator plant"
+        }
+    ],
+    "idShort": "identification",
+    "category": "CONSTANT",
+    "kind": "Template",
+    "submodelElements": [],
+    "embeddedDataSpecifications": []
+}

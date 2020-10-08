@@ -14,16 +14,16 @@ export class Dbconnection implements OnModuleDestroy, OnModuleInit {
         // Database Name
         const dbName = 'digital_twin_db';
         // Create a new MongoClient
-        this.client = new MongoClient(url);
-        await this.client.connect();
-        this.connection = this.client.db(dbName);
+        // this.client = new MongoClient(url);
+        // await this.client.connect();
+        // this.connection = this.client.db(dbName);
     }
 
     async onModuleDestroy() {
-        await this.client.close()
+        // await this.client.close()
     }
 
     public getCollection(collectionName: string) {
-        return this.connection.collection(collectionName);
+        // return this.connection.collection(collectionName);
     }
 }

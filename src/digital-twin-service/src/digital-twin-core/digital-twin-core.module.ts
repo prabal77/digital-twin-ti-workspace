@@ -11,9 +11,10 @@ import { AssetProvider } from './providers/asset-provider';
 import { ConceptDescriptionProvider } from './providers/concept-description-provider';
 import { AasxPackage } from './providers/aasx-package';
 import { AasxPackageController } from './aasx-package/aasx-package.controller';
+import { AasstoreService } from './aasstore/aasstore.service';
 
 @Module({
   controllers: [AasEnvironmentController, AasController, SubmodelController, ConceptDescriptionController, AssetController, AasxPackageController],
-  providers: [AasProvider, AasEnvProvider, SubmodelProvider, AssetProvider, ConceptDescriptionProvider, AasxPackage]
+  providers: [AasProvider, AasEnvProvider, SubmodelProvider, AssetProvider, ConceptDescriptionProvider, AasxPackage, AasstoreService]
 })
 export class DigitalTwinCoreModule { }

@@ -1,0 +1,124 @@
+{
+    "identification": {
+        "idType": "IRI",
+        "id": "urn:admin-shell.io:operationaldata:2:1"
+    },
+    "administration": {
+        "revision": "1",
+        "version": "1"
+    },
+    "modelType": {
+        "name": "Submodel"
+    },
+    "description": [
+        {
+            "language": "en",
+            "text": "Operational Data of the Power Plant"
+        }
+    ],
+    "idShort": "operationaldata",
+    "category": "CONSTANT",
+    "kind": "Template",
+    "semanticId": {
+        "keys": [
+            {
+                "idType": "IRI",
+                "local": false,
+                "type": "Submodel",
+                "value": "http://admin-shell.io/sandbox/technical-data-flat/sm"
+            }
+        ]
+    },
+    "submodelElements": [
+        {
+            "idShort": "maximum power output",
+            "parent": {
+                "keys": [
+                    {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:operationaldata:2:1"
+                    }
+                ]
+            },
+            "description": [],
+            "modelType": {
+                "name": "Property"
+            },
+            "kind": "Template",
+            "valueType": "long",
+            "valueId": {
+                "keys": [
+                    {
+                        "idType": "IRDI",
+                        "value": "0173-1#02-AAW133#002",
+                        "type": "GlobalReference",
+                        "local": false
+                    }
+                ]
+            }
+        },
+        {
+            "idShort": "Power output",
+            "parent": {
+                "keys": [
+                    {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:operationaldata:2:1"
+                    }
+                ]
+            },
+            "description": [],
+            "modelType": {
+                "name": "Property"
+            },
+            "kind": "Template",
+            "valueType": "long",
+            "valueId": {
+                "keys": [
+                    {
+                        "idType": "IRDI",
+                        "value": "0173-1#02-BAC545#006",
+                        "type": "GlobalReference",
+                        "local": false
+                    }
+                ]
+            }
+        },
+        {
+            "idShort": "generators",
+            "parent": {
+                "keys": [
+                    {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:operationaldata:2:1"
+                    }
+                ]
+            },
+            "description": [],
+            "kind": "Template",
+            "modelType": {
+                "name": "SubmodelElementCollection"
+            },
+            "semanticId": {
+                "keys": [
+                    {
+                        "idType": "IRDI",
+                        "local": false,
+                        "type": "GlobalReference",
+                        "value": "21051700"
+                    }
+                ]
+            },
+            "value": [],
+            "ordered": true,
+            "allowDuplicates": true
+        }
+    ],
+    "embeddedDataSpecifications": []
+}

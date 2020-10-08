@@ -1,6 +1,6 @@
 import { Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { Asset } from 'i40-aas-objects';
-import { AasstoreService } from 'src/aasstore/aasstore.service';
+import { AasstoreService } from '../aasstore/aasstore.service';
 
 @Controller('asset')
 export class AssetController {
