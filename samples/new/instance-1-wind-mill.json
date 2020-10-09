@@ -1,0 +1,327 @@
+{
+    "assetAdministrationShells": [
+       {
+          "identification": {
+             "id": "urn:admin-shell.io:aas:2:1:wind-mill:1#001",
+             "idType": "IRI"
+          },
+          "modelType": {
+             "name": "AssetAdministrationShell"
+          },
+          "description": [],
+          "idShort": "WindMill AC Generator",
+          "category": "ASSET",
+          "submodels": [
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:aas:wind-mill:1#001:nameplate"
+                   }
+                ]
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:aas:wind-mill:1#001:documents"
+                   }
+                ]
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:aas:wind-mill:1#001:technicaldata"
+                   }
+                ]
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:aas:wind-mill:1#001:operationaldata:generator"
+                   }
+                ]
+             }
+          ],
+          "conceptDictionaries": [],
+          "views": [],
+          "asset": {
+             "keys": [
+                {
+                   "idType": "IRI",
+                   "local": true,
+                   "type": "Asset",
+                   "value": "urn:admin-shell.io:urn:admin-shell.io:aas:wind-mill:1#001:asset:hyundai:001"
+                }
+             ]
+          },
+          "embeddedDataSpecifications": []
+       }
+    ],
+    "submodels": [
+        {
+            "identification": {
+                "idType": "IRI",
+                "id": "urn:admin-shell.io:aas:wind-mill:1#001:nameplate"
+            },
+            "administration": {
+                "revision": "1",
+                "version": "1"
+            },
+            "modelType": {
+                "name": "Submodel"
+            },
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Nameplate Submodel"
+                }
+            ],
+            "idShort": "Nameplate",
+            "kind": "Instance",
+            "submodelElements": [
+                {
+                    "idShort": "ManufacturerName",
+                    "category": "PARAMETER",
+                    "kind": "Template",
+                    "modelType": {
+                        "name": "Property"
+                    },
+                    "semanticId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "local": false,
+                                "type": "ConceptDescription",
+                                "value": "0173-1#02-AAO677#002"
+                            }
+                        ]
+                    },
+                    "valueType": "string",
+                    "value": "Hyndai heavy electrics"
+                }
+            ],
+            "embeddedDataSpecifications": []
+        },
+        {
+            "identification": {
+                "idType": "IRI",
+                "id": "urn:admin-shell.io:aas:wind-mill:1#001:documents"
+            },
+            "administration": {
+                "revision": "1",
+                "version": "1"
+            },
+            "modelType": {
+                "name": "Submodel"
+            },
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Documentation submodel"
+                }
+            ],
+            "idShort": "documentation",
+            "kind": "Instance",
+            "submodelElements": [
+                {
+                    "idShort": "DeclarationCEMarking",
+                    "category": "PARAMETER",
+                    "kind": "Instance",
+                    "modelType": {
+                        "name": "Property"
+                    },
+                    "semanticId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "local": false,
+                                "type": "ConceptDescription",
+                                "value": "0173-1#02-AAD001#001"
+                            }
+                        ]
+                    },
+                    "value": "product-manual.pdf"
+                }
+            ],
+            "embeddedDataSpecifications": []
+        },
+        {
+            "identification": {
+                "idType": "IRI",
+                "id": "urn:admin-shell.io:aas:wind-mill:1#001:technicaldata"
+            },
+            "administration": {
+                "revision": "1",
+                "version": "1"
+            },
+            "modelType": {
+                "name": "Submodel"
+            },
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Technical Data Submodel"
+                }
+            ],
+            "idShort": "technicaldata",
+            "kind": "Instance",
+            "submodelElements": [
+                {
+                    "idShort": "maximum power output",
+                    "parent": {
+                        "keys": [
+                            {
+                                "idType": "IRI",
+                                "local": true,
+                                "type": "Submodel",
+                                "value": "urn:admin-shell.io:submodel:2:1:technicaldata:max-power-out"
+                            }
+                        ]
+                    },
+                    "description": [],
+                    "modelType": {
+                        "name": "Property"
+                    },
+                    "kind": "Instance",
+                    "category": "PARAMETER",
+                    "valueType": "long",
+                    "valueId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "value": "0173-1#02-AAW133#002",
+                                "type": "GlobalReference",
+                                "local": false
+                            }
+                        ]
+                    },
+                    "value": "30000"
+                }
+            ],
+            "embeddedDataSpecifications": []
+        },
+        {
+            "identification": {
+                "idType": "IRI",
+                "id": "urn:admin-shell.io:aas:wind-mill:1#001:operationaldata:generator"
+            },
+            "administration": {
+                "revision": "1",
+                "version": "1"
+            },
+            "modelType": {
+                "name": "Submodel"
+            },
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Electricity Generator"
+                }
+            ],
+            "idShort": "operationaldata",
+            "kind": "Instance",
+            "semanticId": {
+                "keys": [
+                    {
+                        "idType": "IRI",
+                        "local": false,
+                        "type": "Submodel",
+                        "value": "http://admin-shell.io/sandbox/technical-data-flat/sm"
+                    }
+                ]
+            },
+            "submodelElements": [
+                {
+                    "idShort": "maximum power output",
+                    "parent": {
+                        "keys": [
+                            {
+                                "idType": "IRI",
+                                "local": true,
+                                "type": "Submodel",
+                                "value": "urn:admin-shell.io:submodel:2:1:operationaldata:max-power-out"
+                            }
+                        ]
+                    },
+                    "description": [],
+                    "modelType": {
+                        "name": "Property"
+                    },
+                    "kind": "Instance",
+                    "category": "PARAMETER",
+                    "valueType": "long",
+                    "valueId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "value": "0173-1#02-AAW133#002",
+                                "type": "GlobalReference",
+                                "local": false
+                            }
+                        ]
+                    },
+                    "value": "30000"
+                },
+                {
+                    "idShort": "power output",
+                    "parent": {
+                        "keys": [
+                            {
+                                "idType": "IRI",
+                                "local": true,
+                                "type": "Submodel",
+                                "value": "urn:admin-shell.io:submodel:2:1:operationaldata:power-output"
+                            }
+                        ]
+                    },
+                    "description": [],
+                    "modelType": {
+                        "name": "Property"
+                    },
+                    "kind": "Template",
+                    "category": "PARAMETER",
+                    "valueType": "long",
+                    "valueId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "value": "0173-1#02-BAC545#006",
+                                "type": "GlobalReference",
+                                "local": false
+                            }
+                        ]
+                    },
+                    "value": "20000"
+                }
+            ],
+            "embeddedDataSpecifications": []
+        }
+    ],
+    "conceptDescriptions": [],
+    "assets": [
+       {
+          "identification": {
+             "id": "urn:admin-shell.io:urn:admin-shell.io:aas:wind-mill:1#001:asset:hyundai:001",
+             "idType": "IRI"
+          },
+          "modelType": {
+             "name": "Asset"
+          },
+          "description": [],
+          "idShort": "Hyundai Wind Energy Harness",
+          "kind": "Type",
+          "embeddedDataSpecifications": []
+       }
+    ]
+ }

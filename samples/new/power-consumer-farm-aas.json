@@ -1,0 +1,58 @@
+{
+   "assetAdministrationShells": [
+      {
+         "identification": {
+            "id": "urn:admin-shell.io:aas:2:1:power-consumer",
+            "idType": "IRI"
+         },
+         "modelType": {
+            "name": "AssetAdministrationShell"
+         },
+         "description": [],
+         "idShort": "Power Consumer Farm",
+         "category": "ASSET",
+         "submodels": [
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:submodel:2:1:consumer"
+                  }
+               ]
+            }
+         ],
+         "conceptDictionaries": [],
+         "views": [],
+         "asset": {
+            "keys": [
+               {
+                  "idType": "IRI",
+                  "local": true,
+                  "type": "Asset",
+                  "value": "urn:admin-shell.io:asset:2:1:power-consumer"
+               }
+            ]
+         },
+         "embeddedDataSpecifications": []
+      }
+   ],
+   "submodels": [],
+   "conceptDescriptions": [],
+   "assets": [
+      {
+         "identification": {
+            "id": "urn:admin-shell.io:asset:2:1:power-consumer",
+            "idType": "IRI"
+         },
+         "modelType": {
+            "name": "Asset"
+         },
+         "description": [],
+         "idShort": "Generic Power distribution end point",
+         "kind": "Type",
+         "embeddedDataSpecifications": []
+      }
+   ]
+}

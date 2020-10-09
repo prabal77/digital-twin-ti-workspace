@@ -1,0 +1,88 @@
+{
+    "assetAdministrationShells": [
+       {
+          "identification": {
+             "id": "urn:admin-shell.io:aas:2:1:thermal-power-plant",
+             "idType": "IRI"
+          },
+          "modelType": {
+             "name": "AssetAdministrationShell"
+          },
+          "description": [],
+          "idShort": "Thermal Power Plant",
+          "category": "ASSET",
+          "submodels": [
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:submodel:2:1:nameplate"
+                   }
+                ]
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:submodel:2:1:documents"
+                   }
+                ]
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:submodel:2:1:technicaldata"
+                   }
+                ]
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:submodel:2:1:operationaldata:power-plant"
+                   }
+                ]
+             }
+          ],
+          "conceptDictionaries": [],
+          "views": [],
+          "asset": {
+             "keys": [
+                {
+                   "idType": "IRI",
+                   "local": true,
+                   "type": "Asset",
+                   "value": "urn:admin-shell.io:asset:2:1:thermal-power-plant:bosch"
+                }
+             ]
+          },
+          "embeddedDataSpecifications": []
+       }
+    ],
+    "submodels": [],
+    "conceptDescriptions": [],
+    "assets": [
+       {
+          "identification": {
+             "id": "urn:admin-shell.io:asset:2:1:thermal-power-plant:bosch",
+             "idType": "IRI"
+          },
+          "modelType": {
+             "name": "Asset"
+          },
+          "description": [],
+          "idShort": "Robert Bosch Thermal Power Plant",
+          "kind": "Type",
+          "embeddedDataSpecifications": []
+       }
+    ]
+ }
