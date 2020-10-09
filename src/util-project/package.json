@@ -11,5 +11,8 @@
   "dependencies": {
     "mongodb": "^3.6.2",
     "i40-aas-objects": "^0.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.7"
   }
 }

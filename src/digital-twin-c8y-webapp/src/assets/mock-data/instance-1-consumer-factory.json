@@ -1,0 +1,113 @@
+{
+    "assetAdministrationShells": [
+        {
+            "identification": {
+                "id": "urn:admin-shell.io:aas:2:1:power-consumer:myFactory",
+                "idType": "IRI"
+            },
+            "modelType": {
+                "name": "AssetAdministrationShell"
+            },
+            "description": [],
+            "idShort": "My Factory (consumer)",
+            "category": "ASSET",
+            "submodels": [
+                {
+                    "keys": [
+                        {
+                            "idType": "IRI",
+                            "local": true,
+                            "type": "Submodel",
+                            "value": "urn:admin-shell.io:aas:power-consumer:myFactory:consumer"
+                        }
+                    ]
+                }
+            ],
+            "conceptDictionaries": [],
+            "views": [],
+            "asset": {
+                "keys": [
+                    {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Asset",
+                        "value": "urn:admin-shell.io:asset:2:1:power-consumer:myFactory"
+                    }
+                ]
+            },
+            "embeddedDataSpecifications": []
+        }
+    ],
+    "submodels": [
+        {
+            "identification": {
+                "idType": "IRI",
+                "id": "urn:admin-shell.io:aas:power-consumer:myFactory:consumer"
+            },
+            "administration": {
+                "revision": "1",
+                "version": "1"
+            },
+            "modelType": {
+                "name": "Submodel"
+            },
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Power Consumer Submodel"
+                }
+            ],
+            "idShort": "Consumer",
+            "kind": "Instance",
+            "submodelElements": [
+                {
+                    "idShort": "Consumption",
+                    "category": "VARIABLE",
+                    "kind": "Instance",
+                    "modelType": {
+                        "name": "Property"
+                    },
+                    "semanticId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "local": false,
+                                "type": "ConceptDescription",
+                                "value": "0173-1#02-AAO677#002"
+                            }
+                        ]
+                    },
+                    "valueType": "long",
+                    "valueId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "value": "0173-1#02-AAW133#002",
+                                "type": "GlobalReference",
+                                "local": false
+                            }
+                        ]
+                    },
+                    "value": "15000"
+                }
+            ],
+            "embeddedDataSpecifications": []
+        }
+    ],
+    "conceptDescriptions": [],
+    "assets": [
+        {
+            "identification": {
+                "id": "urn:admin-shell.io:asset:2:1:power-consumer:myFactory",
+                "idType": "IRI"
+            },
+            "modelType": {
+                "name": "Asset"
+            },
+            "description": [],
+            "idShort": "Generic Power distribution end point",
+            "kind": "Type",
+            "embeddedDataSpecifications": []
+        }
+    ]
+}

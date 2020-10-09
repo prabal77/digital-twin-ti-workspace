@@ -1,0 +1,92 @@
+
+> testmongo@1.0.0 start /home/prabal/workspace/digital-twin-ti-workspace/src/util-project
+> tsc src/myTest.ts & node src/myTest.js
+
+{
+   "assetAdministrationShells": [
+      {
+         "identification": {
+            "id": "urn:admin-shell.io:aas:2:1:power-distribution-model",
+            "idType": "IRI"
+         },
+         "modelType": {
+            "name": "AssetAdministrationShell"
+         },
+         "description": [],
+         "idShort": "Power Distribution Model",
+         "category": "MODEL",
+         "submodels": [
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:submodel:2:1:nameplate"
+                  }
+               ]
+            },
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:submodel:2:1:documents"
+                  }
+               ]
+            },
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:submodel:2:1:technicaldata"
+                  }
+               ]
+            },
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:submodel:2:1:interactions"
+                  }
+               ]
+            }
+         ],
+         "conceptDictionaries": [],
+         "views": [],
+         "asset": {
+            "keys": [
+               {
+                  "idType": "IRI",
+                  "local": true,
+                  "type": "Asset",
+                  "value": "urn:admin-shell.io:aas:2:1:power-distribution-model:plant"
+               }
+            ]
+         },
+         "embeddedDataSpecifications": []
+      }
+   ],
+   "submodels": [],
+   "conceptDescriptions": [],
+   "assets": [
+      {
+         "identification": {
+            "id": "urn:admin-shell.io:aas:2:1:power-distribution-model:plant",
+            "idType": "IRI"
+         },
+         "modelType": {
+            "name": "Asset"
+         },
+         "description": [],
+         "idShort": "Power Distribution Plant",
+         "kind": "Type",
+         "embeddedDataSpecifications": []
+      }
+   ]
+}

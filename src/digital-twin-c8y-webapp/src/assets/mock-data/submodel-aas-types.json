@@ -26,6 +26,9 @@
                     "idShort": "ManufacturerName",
                     "category": "PARAMETER",
                     "kind": "Template",
+                    "modelType": {
+                        "name": "Property"
+                    },
                     "semanticId": {
                         "keys": [
                             {
@@ -65,6 +68,9 @@
                     "idShort": "DeclarationCEMarking",
                     "category": "PARAMETER",
                     "kind": "Template",
+                    "modelType": {
+                        "name": "Property"
+                    },
                     "semanticId": {
                         "keys": [
                             {
@@ -436,6 +442,9 @@
                     "idShort": "Consumption",
                     "category": "VARIABLE",
                     "kind": "Template",
+                    "modelType": {
+                        "name": "Property"
+                    },
                     "semanticId": {
                         "keys": [
                             {
@@ -445,7 +454,64 @@
                                 "value": "0173-1#02-AAO677#002"
                             }
                         ]
+                    },
+                    "valueType": "long",
+                    "valueId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "value": "0173-1#02-AAW133#002",
+                                "type": "GlobalReference",
+                                "local": false
+                            }
+                        ]
                     }
+                }
+            ],
+            "embeddedDataSpecifications": []
+        },
+        {
+            "identification": {
+                "idType": "IRI",
+                "id": "urn:admin-shell.io:submodel:2:1:interactions"
+            },
+            "administration": {
+                "revision": "1",
+                "version": "1"
+            },
+            "modelType": {
+                "name": "Submodel"
+            },
+            "description": [
+                {
+                    "language": "en",
+                    "text": "Interaction Models between Asset Admin Shells"
+                }
+            ],
+            "idShort": "Interactions",
+            "kind": "Template",
+            "submodelElements": [
+                {
+                    "idShort": "connections",
+                    "description": [],
+                    "kind": "Template",
+                    "category": "VARIABLE",
+                    "modelType": {
+                        "name": "SubmodelElementCollection"
+                    },
+                    "semanticId": {
+                        "keys": [
+                            {
+                                "idType": "IRDI",
+                                "local": false,
+                                "type": "GlobalReference",
+                                "value": "21051700"
+                            }
+                        ]
+                    },
+                    "value": [],
+                    "ordered": true,
+                    "allowDuplicates": true
                 }
             ],
             "embeddedDataSpecifications": []

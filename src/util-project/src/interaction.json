@@ -1,0 +1,104 @@
+
+> testmongo@1.0.0 start /home/prabal/workspace/digital-twin-ti-workspace/src/util-project
+> tsc src/myTest.ts & node src/myTest.js
+
+{
+   "identification": {
+      "idType": "IRI",
+      "id": "urn:admin-shell.io:submodel:2:1:interactions"
+   },
+   "administration": {
+      "revision": "1",
+      "version": "1"
+   },
+   "modelType": {
+      "name": "Submodel"
+   },
+   "description": [
+      {
+         "language": "en",
+         "text": "Interaction Models between Asset Admin Shells"
+      }
+   ],
+   "idShort": "Interactions",
+   "kind": "Template",
+   "submodelElements": [
+      {
+         "idShort": "feeds to",
+         "parent": {
+            "keys": [
+               {
+                  "idType": "IRI",
+                  "local": true,
+                  "type": "Submodel",
+                  "value": "urn:admin-shell.io:submodel:2:1:interactions"
+               }
+            ]
+         },
+         "description": [],
+         "modelType": {
+            "name": "RelationshipElement"
+         },
+         "kind": "Instance",
+         "first": {
+            "keys": [
+               {
+                  "idType": "IRDI",
+                  "local": false,
+                  "type": "Submodel",
+                  "value": "value"
+               }
+            ]
+         },
+         "second": {
+            "keys": [
+               {
+                  "idType": "IRDI",
+                  "local": false,
+                  "type": "Submodel",
+                  "value": "qweqwe"
+               }
+            ]
+         }
+      },
+      {
+         "idShort": "feeds to",
+         "parent": {
+            "keys": [
+               {
+                  "idType": "IRI",
+                  "local": true,
+                  "type": "Submodel",
+                  "value": "urn:admin-shell.io:submodel:2:1:interactions"
+               }
+            ]
+         },
+         "description": [],
+         "modelType": {
+            "name": "RelationshipElement"
+         },
+         "kind": "Instance",
+         "first": {
+            "keys": [
+               {
+                  "idType": "IRDI",
+                  "local": false,
+                  "type": "Submodel",
+                  "value": "thrid"
+               }
+            ]
+         },
+         "second": {
+            "keys": [
+               {
+                  "idType": "IRDI",
+                  "local": false,
+                  "type": "Submodel",
+                  "value": "forth"
+               }
+            ]
+         }
+      }
+   ],
+   "embeddedDataSpecifications": []
+}

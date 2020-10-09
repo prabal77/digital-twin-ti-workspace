@@ -1,0 +1,25 @@
+{
+    "identification": {
+        "idType": "IRI",
+        "id": "urn:admin-shell.io:submodel:2:1:interactions"
+    },
+    "administration": {
+        "revision": "1",
+        "version": "1"
+    },
+    "modelType": {
+        "name": "Submodel"
+    },
+    "description": [
+        {
+            "language": "en",
+            "text": "Interaction Models between Asset Admin Shells"
+        }
+    ],
+    "idShort": "Interactions",
+    "kind": "Template",
+    "submodelElements": [
+        
+    ],
+    "embeddedDataSpecifications": []
+}
