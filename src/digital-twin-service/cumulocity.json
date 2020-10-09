@@ -9,6 +9,5 @@
         "ROLE_ALARM_READ",
         "ROLE_ALARM_ADMIN"
     ],
-    "roles": [
-    ]
+    "roles": []
 }
