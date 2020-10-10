@@ -19,12 +19,24 @@ var Test2 = /** @class */ (function () {
         var b = '/home/prabal/workspace/digital-twin-ti-workspace/src/util-project/src/';
         var content = fs_1.readFileSync(b + 'test.json', 'utf8');
         var aas = i40_aas_objects_1.AssetAdministrationShellEnv.fromJSON(JSON.parse(content));
+        // console.log(JSON.stringify(aas, null, 3))
         var model = aas.getSubmodelsByIdShort('operationaldata')[0];
-        // model.addSubmodelElement(new SubmodelElementCollection('input-lines', []));
-        var first = { keys: [{ idType: 'IRI', type: 'AssetAdministrationShell', local: false, value: 'value' }] };
-        var second = { keys: [{ idType: 'IRDI', type: 'AssetAdministrationShell', local: false, value: 'qweqwe' }] };
-        model.getSubmodelElementByIdShort('input-lines')
-            .addValue(new RelationshipElement_1.RelationShipElement('feeds to', first, second, { name: 'RelationshipElement' }, undefined, KindEnum_1.KindEnum.Instance));
+        var element = model.getSubmodelElementByIdShort('input-lines');
+        //
+        var thisObject = { keys: [{ idType: 'IRI', type: 'AssetAdministrationShell', local: false, value: 'urn:admin-shell.io:aas:2:1:substation:1-002' }] };
+        var inputPowerGrid = { keys: [{ idType: 'IRI', type: 'AssetAdministrationShell', local: false, value: 'urn:admin-shell.io:aas:2:1:power-grid:1-001' }] };
+        // const windFarm: IReference = { keys: [{ idType: 'IRI', type: 'AssetAdministrationShell', local: false, value: 'urn:admin-shell.io:aas:2:1:wind-farm:1-001' }] };
+        var city = { keys: [{ idType: 'IRI', type: 'AssetAdministrationShell', local: false, value: 'urn:admin-shell.io:aas:2:1:power-consumer:city' }] };
+        var factory = { keys: [{ idType: 'IRI', type: 'AssetAdministrationShell', local: false, value: 'urn:admin-shell.io:aas:2:1:power-consumer:myFactory' }] };
+        var Input1Ref = new RelationshipElement_1.RelationShipElement('feeds to', inputPowerGrid, thisObject, { name: 'RelationshipElement' }, undefined, KindEnum_1.KindEnum.Instance);
+        // const Input2Ref = new RelationShipElement('feeds to', windFarm, thisObject, { name: 'RelationshipElement' }, undefined, KindEnum.Instance);
+        var Out1Ref = new RelationshipElement_1.RelationShipElement('feeds to', thisObject, factory, { name: 'RelationshipElement' }, undefined, KindEnum_1.KindEnum.Instance);
+        // const Out2Ref = new RelationShipElement('feeds to', thisObject, substation2, { name: 'RelationshipElement' }, undefined, KindEnum.Instance);
+        element.addValue(Input1Ref);
+        // element.addValue(Input2Ref);
+        var element2 = model.getSubmodelElementByIdShort('output-lines');
+        element2.addValue(Out1Ref);
+        // element2.addValue(Out2Ref);
         console.log(JSON.stringify(aas, null, 3));
     };
     Test2.prototype.getSubModel = function () {

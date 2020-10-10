@@ -1,78 +1,78 @@
 {
     "assetAdministrationShells": [
-        {
-            "identification": {
-                "id": "urn:admin-shell.io:aas:2:1:power-grid:1-001",
-                "idType": "IRI"
-            },
-            "modelType": {
-                "name": "AssetAdministrationShell"
-            },
-            "description": [],
-            "idShort": "Power Grid",
-            "category": "ASSET",
-            "submodels": [
-                {
-                    "keys": [
-                        {
-                            "idType": "IRI",
-                            "local": true,
-                            "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:power-grid:1-001:nameplate"
-                        }
-                    ]
-                },
-                {
-                    "keys": [
-                        {
-                            "idType": "IRI",
-                            "local": true,
-                            "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:power-grid:1-001:documents"
-                        }
-                    ]
-                },
-                {
-                    "keys": [
-                        {
-                            "idType": "IRI",
-                            "local": true,
-                            "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:power-grid:1-001:technicaldata"
-                        }
-                    ]
-                },
-                {
-                    "keys": [
-                        {
-                            "idType": "IRI",
-                            "local": true,
-                            "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:power-grid:1-001:operationaldata:power-grid"
-                        }
-                    ]
-                }
-            ],
-            "conceptDictionaries": [],
-            "views": [],
-            "asset": {
+       {
+          "identification": {
+             "id": "urn:admin-shell.io:aas:2:1:substation:1-002",
+             "idType": "IRI"
+          },
+          "modelType": {
+             "name": "AssetAdministrationShell"
+          },
+          "description": [],
+          "idShort": "Power Substation",
+          "category": "ASSET",
+          "submodels": [
+             {
                 "keys": [
-                    {
-                        "idType": "IRI",
-                        "local": true,
-                        "type": "Asset",
-                        "value": "urn:admin-shell.io:asset:2:1:power-grid:inno-energy:srl110111"
-                    }
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:ass:substation:1-002:nameplate"
+                   }
                 ]
-            },
-            "embeddedDataSpecifications": []
-        }
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:ass:substation:1-002:documents"
+                   }
+                ]
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:ass:substation:1-002:technicaldata"
+                   }
+                ]
+             },
+             {
+                "keys": [
+                   {
+                      "idType": "IRI",
+                      "local": true,
+                      "type": "Submodel",
+                      "value": "urn:admin-shell.io:ass:substation:1-002:operationaldata:power-grid"
+                   }
+                ]
+             }
+          ],
+          "conceptDictionaries": [],
+          "views": [],
+          "asset": {
+             "keys": [
+                {
+                   "idType": "IRI",
+                   "local": true,
+                   "type": "Asset",
+                   "value": "urn:admin-shell.io:asset:2:1:substation:national-power:10002"
+                }
+             ]
+          },
+          "embeddedDataSpecifications": []
+       }
     ],
     "submodels": [
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:power-grid:1-001:nameplate"
+                "id": "urn:admin-shell.io:ass:substation:1-002:nameplate"
             },
             "administration": {
                 "revision": "1",
@@ -93,7 +93,7 @@
                 {
                     "idShort": "ManufacturerName",
                     "category": "PARAMETER",
-                    "kind": "Instance",
+                    "kind": "Template",
                     "modelType": {
                         "name": "Property"
                     },
@@ -116,7 +116,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:power-grid:1-001:documents"
+                "id": "urn:admin-shell.io:ass:substation:1-002:documents"
             },
             "administration": {
                 "revision": "1",
@@ -147,7 +147,7 @@
                                 "idType": "IRDI",
                                 "local": false,
                                 "type": "ConceptDescription",
-                                "value": "0173-1#02-AAD001-001"
+                                "value": "0173-1#02-AAD001-002"
                             }
                         ]
                     },
@@ -159,7 +159,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:power-grid:1-001:technicaldata"
+                "id": "urn:admin-shell.io:ass:substation:1-002:technicaldata"
             },
             "administration": {
                 "revision": "1",
@@ -185,7 +185,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-grid:1-001:technicaldata:max-power-out"
+                                "value": "urn:admin-shell.io:ass:substation:1-002:technicaldata:max-power-out"
                             }
                         ]
                     },
@@ -214,7 +214,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:power-grid:1-001:operationaldata:power-grid"
+                "id": "urn:admin-shell.io:ass:substation:1-002:operationaldata:power-grid"
             },
             "parent": {
                 "keys": [
@@ -280,52 +280,7 @@
                             }
                         ]
                     },
-                    "value": [
-                        {
-                            "idShort": "feeds to",
-                            "parent": {
-                                "keys": [
-                                    {
-                                        "idType": "IdShort",
-                                        "local": true,
-                                        "type": "SubmodelElementCollection",
-                                        "value": "input-lines"
-                                    },
-                                    {
-                                        "idType": "IRI",
-                                        "local": true,
-                                        "type": "Submodel",
-                                        "value": "urn:admin-shell.io:aas:power-grid:1-001:operationaldata:power-grid"
-                                    }
-                                ]
-                            },
-                            "description": [],
-                            "modelType": {
-                                "name": "RelationshipElement"
-                            },
-                            "kind": "Instance",
-                            "first": {
-                                "keys": [
-                                    {
-                                        "idType": "IRI",
-                                        "local": false,
-                                        "type": "AssetAdministrationShell",
-                                        "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1-001"
-                                    }
-                                ]
-                            },
-                            "second": {
-                                "keys": [
-                                    {
-                                        "idType": "IRDI",
-                                        "local": false,
-                                        "type": "AssetAdministrationShell",
-                                        "value": "qweqwe"
-                                    }
-                                ]
-                            }
-                        }
-                    ],
+                    "value": [],
                     "ordered": true,
                     "allowDuplicates": true
                 },
@@ -367,18 +322,18 @@
     ],
     "conceptDescriptions": [],
     "assets": [
-        {
-            "identification": {
-                "id": "urn:admin-shell.io:asset:2:1:power-grid:inno-energy:srl110111",
-                "idType": "IRI"
-            },
-            "modelType": {
-                "name": "Asset"
-            },
-            "description": [],
-            "idShort": "Inno Energy Power Grid",
-            "kind": "Instance",
-            "embeddedDataSpecifications": []
-        }
+       {
+          "identification": {
+             "id": "urn:admin-shell.io:asset:2:1:substation:national-power:10002",
+             "idType": "IRI"
+          },
+          "modelType": {
+             "name": "Asset"
+          },
+          "description": [],
+          "idShort": "National Power Corporation",
+          "kind": "Instance",
+          "embeddedDataSpecifications": []
+       }
     ]
-}
+ }
