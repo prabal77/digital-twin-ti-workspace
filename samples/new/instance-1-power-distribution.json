@@ -2,7 +2,7 @@
     "assetAdministrationShells": [
         {
             "identification": {
-                "id": "urn:admin-shell.io:aas:2:1:power-distribution-model:1#001",
+                "id": "urn:admin-shell.io:aas:2:1:power-distribution-model:1-001",
                 "idType": "IRI"
             },
             "modelType": {
@@ -18,7 +18,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:nameplate"
+                            "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:nameplate"
                         }
                     ]
                 },
@@ -28,7 +28,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:documents"
+                            "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:documents"
                         }
                     ]
                 },
@@ -38,7 +38,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:technicaldata"
+                            "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:technicaldata"
                         }
                     ]
                 },
@@ -48,7 +48,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                            "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                         }
                     ]
                 }
@@ -61,7 +61,7 @@
                         "idType": "IRI",
                         "local": true,
                         "type": "Asset",
-                        "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:plant:001"
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:plant:001"
                     }
                 ]
             },
@@ -72,7 +72,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:power-distribution-model:1#001:nameplate"
+                "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:nameplate"
             },
             "administration": {
                 "revision": "1",
@@ -116,7 +116,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:power-distribution-model:1#001:documents"
+                "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:documents"
             },
             "administration": {
                 "revision": "1",
@@ -147,7 +147,7 @@
                                 "idType": "IRDI",
                                 "local": false,
                                 "type": "ConceptDescription",
-                                "value": "0173-1#02-AAD001#001"
+                                "value": "0173-1#02-AAD001-001"
                             }
                         ]
                     },
@@ -159,7 +159,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:power-distribution-model:1#001:technicaldata"
+                "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:technicaldata"
             },
             "administration": {
                 "revision": "1",
@@ -214,7 +214,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
             },
             "administration": {
                 "revision": "1",
@@ -240,7 +240,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -255,7 +255,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:ac-generator:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:ac-generator:1-001"
                             }
                         ]
                     },
@@ -265,7 +265,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1-001"
                             }
                         ]
                     }
@@ -278,7 +278,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -293,7 +293,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:ac-generator:1#002"
+                                "value": "urn:admin-shell.io:aas:2:1:ac-generator:1-002"
                             }
                         ]
                     },
@@ -303,7 +303,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1-001"
                             }
                         ]
                     }
@@ -316,7 +316,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -331,7 +331,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:wind-mill:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:wind-mill:1-001"
                             }
                         ]
                     },
@@ -341,7 +341,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:wind-farm:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:wind-farm:1-001"
                             }
                         ]
                     }
@@ -354,7 +354,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -369,7 +369,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:wind-mill:1#002"
+                                "value": "urn:admin-shell.io:aas:2:1:wind-mill:1-002"
                             }
                         ]
                     },
@@ -379,7 +379,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:wind-farm:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:wind-farm:1-001"
                             }
                         ]
                     }
@@ -392,7 +392,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -407,7 +407,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1-001"
                             }
                         ]
                     },
@@ -417,7 +417,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:power-grid:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:power-grid:1-001"
                             }
                         ]
                     }
@@ -430,7 +430,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -445,7 +445,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:wind-farm:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:wind-farm:1-001"
                             }
                         ]
                     },
@@ -455,7 +455,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:power-grid:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:power-grid:1-001"
                             }
                         ]
                     }
@@ -468,7 +468,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -483,7 +483,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:power-grid:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:power-grid:1-001"
                             }
                         ]
                     },
@@ -493,7 +493,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:substation:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:substation:1-001"
                             }
                         ]
                     }
@@ -506,7 +506,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -521,7 +521,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:power-grid:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:power-grid:1-001"
                             }
                         ]
                     },
@@ -531,7 +531,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:substation:1#002"
+                                "value": "urn:admin-shell.io:aas:2:1:substation:1-002"
                             }
                         ]
                     }
@@ -544,7 +544,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -559,7 +559,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:substation:1#002"
+                                "value": "urn:admin-shell.io:aas:2:1:substation:1-002"
                             }
                         ]
                     },
@@ -582,7 +582,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:power-distribution-model:1#001:interactions"
+                                "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
                             }
                         ]
                     },
@@ -597,7 +597,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "AssetAdministrationShell",
-                                "value": "urn:admin-shell.io:aas:2:1:substation:1#001"
+                                "value": "urn:admin-shell.io:aas:2:1:substation:1-001"
                             }
                         ]
                     },
@@ -620,7 +620,7 @@
     "assets": [
         {
             "identification": {
-                "id": "urn:admin-shell.io:aas:power-distribution-model:1#001:plant:001",
+                "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:plant:001",
                 "idType": "IRI"
             },
             "modelType": {
@@ -628,7 +628,7 @@
             },
             "description": [],
             "idShort": "Northen Power Distribution Plant",
-            "kind": "Type",
+            "kind": "Instance",
             "embeddedDataSpecifications": []
         }
     ]

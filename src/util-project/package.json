@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc src/myTest.ts & node src/myTest.js"
+    "start": "tsc src/myTest.ts && node src/myTest.js"
   },
   "author": "",
   "license": "ISC",

@@ -11,12 +11,18 @@ export class AasEnvironmentController {
 
     @Post()
     public async addAssestAdminShells(@Body() aasEnv: AssetAdministrationShellEnv) {
-        console.log(aasEnv);
-        const object = AssetAdministrationShellEnv.fromJSON(aasEnv);
-        object.getConceptDescriptions().forEach(_cd => this.aasStoreService.addConceptDescription(_cd));
-        object.getSubmodels().forEach(_m => this.aasStoreService.addSubmodel(_m));
-        object.getAssets().forEach(_a => this.aasStoreService.addAsset(_a));
-        object.getAssetAdministrationShells().forEach(_a => this.aasStoreService.addAASObj(_a));
-        return object;
+        try {
+            const object = AssetAdministrationShellEnv.fromJSON(aasEnv);
+            object.getConceptDescriptions().forEach(_cd => this.aasStoreService.addConceptDescription(_cd));
+            object.getSubmodels().forEach(_m => this.aasStoreService.addSubmodel(_m));
+            object.getAssets().forEach(_a => this.aasStoreService.addAsset(_a));
+            object.getAssetAdministrationShells().forEach(_a => this.aasStoreService.addAASObj(_a));
+            return object;
+        } catch (error) {
+            console.log('error parsing data ', aasEnv);
+            console.log(error);
+            return aasEnv;
+        }
     }
+
 }

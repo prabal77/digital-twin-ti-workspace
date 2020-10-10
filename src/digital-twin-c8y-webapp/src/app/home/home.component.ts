@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DigitalTwinDataService } from '../digital-twin-data.service';
+import { AdminShellEnvService } from '../services/admin-shell-env.service';
 
 @Component({
   selector: 'app-home',
@@ -8,13 +9,11 @@ import { DigitalTwinDataService } from '../digital-twin-data.service';
 })
 export class HomeComponent implements OnInit {
   twins: any[];
-  constructor(private dataService: DigitalTwinDataService) { }
+  constructor(private adminShellEnvService: AdminShellEnvService) { }
 
-  ngOnInit() {
-    this.dataService.getDigitalTwinModeList().subscribe(_d => {
-      console.log('received data ', _d);
-      this.twins = _d;
-    });
+  async ngOnInit() {
+    const data = (await this.adminShellEnvService.getData());
+    console.log(data);
   }
 
 

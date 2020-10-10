@@ -7,16 +7,25 @@ var RelationshipElement_1 = require("i40-aas-objects/dist/src/referables/Relatio
 var KindEnum_1 = require("i40-aas-objects/dist/src/types/KindEnum");
 var Test2 = /** @class */ (function () {
     function Test2() {
-        this.base = '/home/prabal/workspace/digital-twin-ti-workspace/src/digital-twin-c8y-webapp/src/assets/mock-data/';
+        this.base = '/home/prabal/workspace/digital-twin-ti-workspace/samples/new/';
     }
     Test2.prototype.run = function () {
         // this.getSubModel();
-        this.getAAS();
+        // this.getAAS();
+        this.get();
     };
     Test2.prototype.get = function () {
-        var content = fs_1.readFileSync(this.base + 'instance-1-power-distribution.json', 'utf8');
+        // const content = readFileSync(this.base + 'instance-1-power-grid.json', 'utf8');
+        var b = '/home/prabal/workspace/digital-twin-ti-workspace/src/util-project/src/';
+        var content = fs_1.readFileSync(b + 'test.json', 'utf8');
         var aas = i40_aas_objects_1.AssetAdministrationShellEnv.fromJSON(JSON.parse(content));
-        console.log(aas);
+        var model = aas.getSubmodelsByIdShort('operationaldata')[0];
+        // model.addSubmodelElement(new SubmodelElementCollection('input-lines', []));
+        var first = { keys: [{ idType: 'IRI', type: 'AssetAdministrationShell', local: false, value: 'value' }] };
+        var second = { keys: [{ idType: 'IRDI', type: 'AssetAdministrationShell', local: false, value: 'qweqwe' }] };
+        model.getSubmodelElementByIdShort('input-lines')
+            .addValue(new RelationshipElement_1.RelationShipElement('feeds to', first, second, { name: 'RelationshipElement' }, undefined, KindEnum_1.KindEnum.Instance));
+        console.log(JSON.stringify(aas, null, 3));
     };
     Test2.prototype.getSubModel = function () {
         var b = '/home/prabal/workspace/digital-twin-ti-workspace/src/util-project/src/';

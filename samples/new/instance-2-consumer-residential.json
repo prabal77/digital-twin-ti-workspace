@@ -106,7 +106,7 @@
             },
             "description": [],
             "idShort": "Generic Power distribution end point",
-            "kind": "Type",
+            "kind": "Instance",
             "embeddedDataSpecifications": []
         }
     ]

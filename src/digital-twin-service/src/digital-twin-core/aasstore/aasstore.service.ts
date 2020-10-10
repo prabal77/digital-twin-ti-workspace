@@ -1,6 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { Asset, AssetAdministrationShell, AssetAdministrationShellEnv, ConceptDescription, Submodel } from 'i40-aas-objects';
 import { Reference } from 'i40-aas-objects/dist/src/baseClasses/Reference';
+import { AssetKindEnum } from 'i40-aas-objects/dist/src/types/AssetKindEnum';
+import { KindEnum } from 'i40-aas-objects/dist/src/types/KindEnum';
 
 @Injectable()
 export class AasstoreService {
@@ -11,7 +13,7 @@ export class AasstoreService {
     private assetDict = new Map<string, Asset>();
     private conceptDict = new Map<string, ConceptDescription>();
 
-    constructor() { }
+    constructor() {}
 
     public addAASEnvObj(obj: AssetAdministrationShellEnv) {
         this.aasEnvList.push(obj);
@@ -41,6 +43,30 @@ export class AasstoreService {
         const l: AssetAdministrationShell[] = [];
         this.aasDict.forEach(x => { l.push(x) });
         return l;
+    }
+
+    public getAASByCategory(categoryName: string): AssetAdministrationShell[] {
+        if (categoryName === undefined || categoryName === null || categoryName === '') {
+            return this.getAllAASObjs();
+        } else {
+            return Array.from(this.aasDict.values())
+                .filter(_aas => {
+                    return _aas.category !== undefined && _aas.category.toLocaleLowerCase().includes(categoryName.toLocaleLowerCase())
+                });
+        }
+    }
+
+    // Filter list of admin shell by asset state as Instance
+    public filterByInstances(list: AssetAdministrationShell[]) {
+        return list.filter(_aas =>
+            this.assetDict.has(_aas.asset.keys[0].value)
+            && this.assetDict.get(_aas.asset.keys[0].value).kind === AssetKindEnum.Instance);
+    }
+    // Filter list of admin shell by Asset State as Template only
+    public filterByTemplates(list: AssetAdministrationShell[]) {
+        return list.filter(_aas =>
+            !(this.assetDict.has(_aas.asset.keys[0].value)
+                && this.assetDict.get(_aas.asset.keys[0].value).kind === AssetKindEnum.Instance));
     }
 
     public getAASObjByID(id: string): AssetAdministrationShell {

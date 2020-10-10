@@ -1,0 +1,661 @@
+
+> testmongo@1.0.0 start /home/prabal/workspace/digital-twin-ti-workspace/src/util-project
+> tsc src/myTest.ts && node src/myTest.js
+
+{
+   "assetAdministrationShells": [
+      {
+         "identification": {
+            "id": "urn:admin-shell.io:aas:2:1:power-distribution-model:1-001",
+            "idType": "IRI"
+         },
+         "modelType": {
+            "name": "AssetAdministrationShell"
+         },
+         "description": [],
+         "idShort": "Northern Power Distribution Model",
+         "category": "MODEL",
+         "submodels": [
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:nameplate"
+                  }
+               ]
+            },
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:documents"
+                  }
+               ]
+            },
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:technicaldata"
+                  }
+               ]
+            },
+            {
+               "keys": [
+                  {
+                     "idType": "IRI",
+                     "local": true,
+                     "type": "Submodel",
+                     "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                  }
+               ]
+            }
+         ],
+         "conceptDictionaries": [],
+         "views": [],
+         "asset": {
+            "keys": [
+               {
+                  "idType": "IRI",
+                  "local": true,
+                  "type": "Asset",
+                  "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:plant:001"
+               }
+            ]
+         },
+         "embeddedDataSpecifications": []
+      }
+   ],
+   "submodels": [
+      {
+         "identification": {
+            "idType": "IRI",
+            "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:nameplate"
+         },
+         "administration": {
+            "revision": "1",
+            "version": "1"
+         },
+         "modelType": {
+            "name": "Submodel"
+         },
+         "description": [
+            {
+               "language": "en",
+               "text": "Nameplate Submodel"
+            }
+         ],
+         "idShort": "Nameplate",
+         "kind": "Instance",
+         "submodelElements": [
+            {
+               "idShort": "ManufacturerName",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:nameplate"
+                     }
+                  ]
+               },
+               "category": "PARAMETER",
+               "description": [],
+               "modelType": {
+                  "name": "Property"
+               },
+               "kind": "Template",
+               "semanticId": {
+                  "keys": [
+                     {
+                        "idType": "IRDI",
+                        "local": false,
+                        "type": "ConceptDescription",
+                        "value": "0173-1#02-AAO677#002"
+                     }
+                  ]
+               },
+               "value": "Northen Group",
+               "valueType": "string"
+            }
+         ],
+         "embeddedDataSpecifications": []
+      },
+      {
+         "identification": {
+            "idType": "IRI",
+            "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:documents"
+         },
+         "administration": {
+            "revision": "1",
+            "version": "1"
+         },
+         "modelType": {
+            "name": "Submodel"
+         },
+         "description": [
+            {
+               "language": "en",
+               "text": "Documentation submodel"
+            }
+         ],
+         "idShort": "documentation",
+         "kind": "Instance",
+         "submodelElements": [
+            {
+               "idShort": "DeclarationCEMarking",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:documents"
+                     }
+                  ]
+               },
+               "category": "PARAMETER",
+               "description": [],
+               "modelType": {
+                  "name": "Property"
+               },
+               "kind": "Instance",
+               "semanticId": {
+                  "keys": [
+                     {
+                        "idType": "IRDI",
+                        "local": false,
+                        "type": "ConceptDescription",
+                        "value": "0173-1#02-AAD001-001"
+                     }
+                  ]
+               },
+               "value": "some-doc.pdf"
+            }
+         ],
+         "embeddedDataSpecifications": []
+      },
+      {
+         "identification": {
+            "idType": "IRI",
+            "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:technicaldata"
+         },
+         "administration": {
+            "revision": "1",
+            "version": "1"
+         },
+         "modelType": {
+            "name": "Submodel"
+         },
+         "description": [
+            {
+               "language": "en",
+               "text": "Technical Data Submodel"
+            }
+         ],
+         "idShort": "technicaldata",
+         "kind": "Instance",
+         "submodelElements": [
+            {
+               "idShort": "maximum power output",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:technicaldata"
+                     }
+                  ]
+               },
+               "category": "PARAMETER",
+               "description": [],
+               "modelType": {
+                  "name": "Property"
+               },
+               "kind": "Instance",
+               "value": "500000",
+               "valueType": "long",
+               "valueId": {
+                  "keys": [
+                     {
+                        "idType": "IRDI",
+                        "value": "0173-1#02-AAW133#002",
+                        "type": "GlobalReference",
+                        "local": false
+                     }
+                  ]
+               }
+            }
+         ],
+         "embeddedDataSpecifications": []
+      },
+      {
+         "identification": {
+            "idType": "IRI",
+            "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+         },
+         "administration": {
+            "revision": "1",
+            "version": "1"
+         },
+         "modelType": {
+            "name": "Submodel"
+         },
+         "description": [
+            {
+               "language": "en",
+               "text": "Interaction Models between Asset Admin Shells"
+            }
+         ],
+         "idShort": "Interactions",
+         "kind": "Instance",
+         "submodelElements": [
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:ac-generator:1-001"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1-001"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:ac-generator:1-002"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1-001"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:wind-mill:1-001"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:wind-farm:1-001"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:wind-mill:1-002"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:wind-farm:1-001"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:thermal-power-plant:1-001"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:power-grid:1-001"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:wind-farm:1-001"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:power-grid:1-001"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:power-grid:1-001"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:substation:1-001"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:power-grid:1-001"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:substation:1-002"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:substation:1-002"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:power-consumer:myFactory"
+                     }
+                  ]
+               }
+            },
+            {
+               "idShort": "feeds to",
+               "parent": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "Submodel",
+                        "value": "urn:admin-shell.io:aas:power-distribution-model:1-001:interactions"
+                     }
+                  ]
+               },
+               "description": [],
+               "modelType": {
+                  "name": "RelationshipElement"
+               },
+               "kind": "Instance",
+               "first": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:substation:1-001"
+                     }
+                  ]
+               },
+               "second": {
+                  "keys": [
+                     {
+                        "idType": "IRI",
+                        "local": true,
+                        "type": "AssetAdministrationShell",
+                        "value": "urn:admin-shell.io:aas:2:1:power-consumer:city"
+                     }
+                  ]
+               }
+            }
+         ],
+         "embeddedDataSpecifications": []
+      }
+   ],
+   "conceptDescriptions": [],
+   "assets": [
+      {
+         "identification": {
+            "id": "urn:admin-shell.io:aas:power-distribution-model:1-001:plant:001",
+            "idType": "IRI"
+         },
+         "modelType": {
+            "name": "Asset"
+         },
+         "description": [],
+         "idShort": "Northen Power Distribution Plant",
+         "kind": "Instance",
+         "embeddedDataSpecifications": []
+      }
+   ]
+}

@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Put, Query } from '@nestjs/common';
 import { AssetAdministrationShell, Reference, Submodel } from 'i40-aas-objects';
 import { identity } from 'rxjs';
 import { AasstoreService } from '../aasstore/aasstore.service';
@@ -14,9 +14,25 @@ export class AasController {
     }
 
     @Get()
-    public getAAS(): { assetAdministrationShellList: AssetAdministrationShell[] } {
+    public getAASByCategory(@Query('category') category?: string) {
         return {
-            assetAdministrationShellList: this.aasStoreService.getAllAASObjs()
+            assetAdministrationShellList: this.aasStoreService.getAASByCategory(category)
+        }
+    }
+
+    @Get('instances')
+    public getAASInstancesByCategory(@Query('category') category?: string) {
+        return {
+            assetAdministrationShellList: this.aasStoreService.filterByInstances(
+                this.aasStoreService.getAASByCategory(category))
+        }
+    }
+
+    @Get('templates')
+    public getAASTemplatesByCategory(@Query('category') category?: string) {
+        return {
+            assetAdministrationShellList: this.aasStoreService.filterByTemplates(
+                this.aasStoreService.getAASByCategory(category))
         }
     }
 

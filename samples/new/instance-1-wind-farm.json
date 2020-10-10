@@ -2,7 +2,7 @@
     "assetAdministrationShells": [
         {
             "identification": {
-                "id": "urn:admin-shell.io:aas:2:1:wind-farm:1#001",
+                "id": "urn:admin-shell.io:aas:2:1:wind-farm:1-001",
                 "idType": "IRI"
             },
             "modelType": {
@@ -18,7 +18,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:wind-farm:1#001:nameplate"
+                            "value": "urn:admin-shell.io:aas:wind-farm:1-001:nameplate"
                         }
                     ]
                 },
@@ -28,7 +28,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:wind-farm:1#001:documents"
+                            "value": "urn:admin-shell.io:aas:wind-farm:1-001:documents"
                         }
                     ]
                 },
@@ -38,7 +38,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:wind-farm:1#001:technicaldata"
+                            "value": "urn:admin-shell.io:aas:wind-farm:1-001:technicaldata"
                         }
                     ]
                 },
@@ -48,7 +48,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:aas:wind-farm:1#001:operationaldata:power-plant"
+                            "value": "urn:admin-shell.io:aas:wind-farm:1-001:operationaldata:power-plant"
                         }
                     ]
                 }
@@ -61,7 +61,7 @@
                         "idType": "IRI",
                         "local": true,
                         "type": "Asset",
-                        "value": "urn:admin-shell.io:asset:2:1:wind-farm:hyundai"
+                        "value": "urn:admin-shell.io:asset:2:1:wind-farm:hyundai:1-001"
                     }
                 ]
             },
@@ -72,7 +72,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:wind-farm:1#001:nameplate"
+                "id": "urn:admin-shell.io:aas:wind-farm:1-001:nameplate"
             },
             "administration": {
                 "revision": "1",
@@ -116,7 +116,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:wind-farm:1#001:documents"
+                "id": "urn:admin-shell.io:aas:wind-farm:1-001:documents"
             },
             "administration": {
                 "revision": "1",
@@ -147,7 +147,7 @@
                                 "idType": "IRDI",
                                 "local": false,
                                 "type": "ConceptDescription",
-                                "value": "0173-1#02-AAD001#001"
+                                "value": "0173-1#02-AAD001-001"
                             }
                         ]
                     },
@@ -159,7 +159,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:wind-farm:1#001:technicaldata"
+                "id": "urn:admin-shell.io:aas:wind-farm:1-001:technicaldata"
             },
             "administration": {
                 "revision": "1",
@@ -214,7 +214,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:wind-farm:1#001:operationaldata:power-plant"
+                "id": "urn:admin-shell.io:aas:wind-farm:1-001:operationaldata:power-plant"
             },
             "administration": {
                 "revision": "1",
@@ -250,7 +250,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:thermal-power-plant:1#001:operationaldata:max-power-out"
+                                "value": "urn:admin-shell.io:aas:thermal-power-plant:1-001:operationaldata:max-power-out"
                             }
                         ]
                     },
@@ -281,7 +281,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:thermal-power-plant:1#001:operationaldata:power-output"
+                                "value": "urn:admin-shell.io:aas:thermal-power-plant:1-001:operationaldata:power-output"
                             }
                         ]
                     },
@@ -312,7 +312,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:aas:thermal-power-plant:1#001:operationaldata:generators"
+                                "value": "urn:admin-shell.io:aas:thermal-power-plant:1-001:operationaldata:generators"
                             }
                         ]
                     },
@@ -339,7 +339,7 @@
                                     "idType": "IRI",
                                     "local": true,
                                     "type": "AssetAdministrationShell",
-                                    "value": "urn:admin-shell.io:aas:2:1:wind-mill:1#001"
+                                    "value": "urn:admin-shell.io:aas:2:1:wind-mill:1-001"
                                 }
                             ]
                         },
@@ -349,7 +349,7 @@
                                     "idType": "IRI",
                                     "local": true,
                                     "type": "AssetAdministrationShell",
-                                    "value": "urn:admin-shell.io:aas:2:1:wind-mill:1#002"
+                                    "value": "urn:admin-shell.io:aas:2:1:wind-mill:1-002"
                                 }
                             ]
                         }
@@ -365,7 +365,7 @@
     "assets": [
         {
             "identification": {
-                "id": "urn:admin-shell.io:asset:2:1:wind-farm:hyundai",
+                "id": "urn:admin-shell.io:asset:2:1:wind-farm:hyundai:1-001",
                 "idType": "IRI"
             },
             "modelType": {
@@ -373,7 +373,7 @@
             },
             "description": [],
             "idShort": "Hyundai Wind Farm Plant",
-            "kind": "Type",
+            "kind": "Instance",
             "embeddedDataSpecifications": []
         }
     ]

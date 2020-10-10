@@ -2,7 +2,7 @@
     "assetAdministrationShells": [
         {
             "identification": {
-                "id": "urn:admin-shell.io:aas:2:1:substation:1#001",
+                "id": "urn:admin-shell.io:aas:2:1:substation:1-001",
                 "idType": "IRI"
             },
             "modelType": {
@@ -18,7 +18,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:ass:substation:1#001:nameplate"
+                            "value": "urn:admin-shell.io:ass:substation:1-001:nameplate"
                         }
                     ]
                 },
@@ -28,7 +28,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:ass:substation:1#001:documents"
+                            "value": "urn:admin-shell.io:ass:substation:1-001:documents"
                         }
                     ]
                 },
@@ -38,7 +38,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:ass:substation:1#001:technicaldata"
+                            "value": "urn:admin-shell.io:ass:substation:1-001:technicaldata"
                         }
                     ]
                 },
@@ -48,7 +48,7 @@
                             "idType": "IRI",
                             "local": true,
                             "type": "Submodel",
-                            "value": "urn:admin-shell.io:ass:substation:1#001:operationaldata:power-grid"
+                            "value": "urn:admin-shell.io:ass:substation:1-001:operationaldata:power-grid"
                         }
                     ]
                 }
@@ -61,7 +61,7 @@
                         "idType": "IRI",
                         "local": true,
                         "type": "Asset",
-                        "value": "urn:admin-shell.io:asset:2:1:substation:national-power"
+                        "value": "urn:admin-shell.io:asset:2:1:substation:national-power:10001"
                     }
                 ]
             },
@@ -72,7 +72,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:ass:substation:1#001:nameplate"
+                "id": "urn:admin-shell.io:ass:substation:1-001:nameplate"
             },
             "administration": {
                 "revision": "1",
@@ -116,7 +116,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:ass:substation:1#001:documents"
+                "id": "urn:admin-shell.io:ass:substation:1-001:documents"
             },
             "administration": {
                 "revision": "1",
@@ -147,7 +147,7 @@
                                 "idType": "IRDI",
                                 "local": false,
                                 "type": "ConceptDescription",
-                                "value": "0173-1#02-AAD001#001"
+                                "value": "0173-1#02-AAD001-001"
                             }
                         ]
                     },
@@ -159,7 +159,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:ass:substation:1#001:technicaldata"
+                "id": "urn:admin-shell.io:ass:substation:1-001:technicaldata"
             },
             "administration": {
                 "revision": "1",
@@ -185,7 +185,7 @@
                                 "idType": "IRI",
                                 "local": true,
                                 "type": "Submodel",
-                                "value": "urn:admin-shell.io:ass:substation:1#001:technicaldata:max-power-out"
+                                "value": "urn:admin-shell.io:ass:substation:1-001:technicaldata:max-power-out"
                             }
                         ]
                     },
@@ -214,7 +214,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:ass:substation:1#001:operationaldata:power-grid"
+                "id": "urn:admin-shell.io:ass:substation:1-001:operationaldata:power-grid"
             },
             "parent": {
                 "keys": [
@@ -280,18 +280,7 @@
                             }
                         ]
                     },
-                    "value": [
-                        {
-                            "keys": [
-                                {
-                                    "idType": "IRI",
-                                    "local": true,
-                                    "type": "AssetAdministrationShell",
-                                    "value": "urn:admin-shell.io:aas:2:1:power-grid:1#001"
-                                }
-                            ]
-                        }
-                    ],
+                    "value": [],
                     "ordered": true,
                     "allowDuplicates": true
                 },
@@ -323,18 +312,7 @@
                             }
                         ]
                     },
-                    "value": [
-                        {
-                            "keys": [
-                                {
-                                    "idType": "IRI",
-                                    "local": true,
-                                    "type": "AssetAdministrationShell",
-                                    "value": "urn:admin-shell.io:aas:2:1:power-consumer:city"
-                                }
-                            ]
-                        }
-                    ],
+                    "value": [],
                     "ordered": true,
                     "allowDuplicates": true
                 }
@@ -346,7 +324,7 @@
     "assets": [
         {
             "identification": {
-                "id": "urn:admin-shell.io:asset:2:1:substation:national-power",
+                "id": "urn:admin-shell.io:asset:2:1:substation:national-power:10001",
                 "idType": "IRI"
             },
             "modelType": {
@@ -354,7 +332,7 @@
             },
             "description": [],
             "idShort": "National Power Corporation",
-            "kind": "Type",
+            "kind": "Instance",
             "embeddedDataSpecifications": []
         }
     ]

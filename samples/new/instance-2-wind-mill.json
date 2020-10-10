@@ -2,7 +2,7 @@
     "assetAdministrationShells": [
        {
           "identification": {
-             "id": "urn:admin-shell.io:aas:2:1:wind-mill:1#002",
+             "id": "urn:admin-shell.io:aas:2:1:wind-mill:1-002",
              "idType": "IRI"
           },
           "modelType": {
@@ -18,7 +18,7 @@
                       "idType": "IRI",
                       "local": true,
                       "type": "Submodel",
-                      "value": "urn:admin-shell.io:aas:wind-mill:1#002:nameplate"
+                      "value": "urn:admin-shell.io:aas:wind-mill:1-002:nameplate"
                    }
                 ]
              },
@@ -28,7 +28,7 @@
                       "idType": "IRI",
                       "local": true,
                       "type": "Submodel",
-                      "value": "urn:admin-shell.io:aas:wind-mill:1#002:documents"
+                      "value": "urn:admin-shell.io:aas:wind-mill:1-002:documents"
                    }
                 ]
              },
@@ -38,7 +38,7 @@
                       "idType": "IRI",
                       "local": true,
                       "type": "Submodel",
-                      "value": "urn:admin-shell.io:aas:wind-mill:1#002:technicaldata"
+                      "value": "urn:admin-shell.io:aas:wind-mill:1-002:technicaldata"
                    }
                 ]
              },
@@ -48,7 +48,7 @@
                       "idType": "IRI",
                       "local": true,
                       "type": "Submodel",
-                      "value": "urn:admin-shell.io:aas:wind-mill:1#002:operationaldata:generator"
+                      "value": "urn:admin-shell.io:aas:wind-mill:1-002:operationaldata:generator"
                    }
                 ]
              }
@@ -61,7 +61,7 @@
                    "idType": "IRI",
                    "local": true,
                    "type": "Asset",
-                   "value": "urn:admin-shell.io:urn:admin-shell.io:aas:wind-mill:1#002:asset:hyundai:001"
+                   "value": "urn:admin-shell.io:urn:admin-shell.io:aas:wind-mill:1-002:asset:hyundai:001"
                 }
              ]
           },
@@ -72,7 +72,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:wind-mill:1#002:nameplate"
+                "id": "urn:admin-shell.io:aas:wind-mill:1-002:nameplate"
             },
             "administration": {
                 "revision": "1",
@@ -116,7 +116,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:wind-mill:1#002:documents"
+                "id": "urn:admin-shell.io:aas:wind-mill:1-002:documents"
             },
             "administration": {
                 "revision": "1",
@@ -147,7 +147,7 @@
                                 "idType": "IRDI",
                                 "local": false,
                                 "type": "ConceptDescription",
-                                "value": "0173-1#02-AAD001#002"
+                                "value": "0173-1#02-AAD001-002"
                             }
                         ]
                     },
@@ -159,7 +159,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:wind-mill:1#002:technicaldata"
+                "id": "urn:admin-shell.io:aas:wind-mill:1-002:technicaldata"
             },
             "administration": {
                 "revision": "1",
@@ -214,7 +214,7 @@
         {
             "identification": {
                 "idType": "IRI",
-                "id": "urn:admin-shell.io:aas:wind-mill:1#002:operationaldata:generator"
+                "id": "urn:admin-shell.io:aas:wind-mill:1-002:operationaldata:generator"
             },
             "administration": {
                 "revision": "1",
@@ -312,7 +312,7 @@
     "assets": [
        {
           "identification": {
-             "id": "urn:admin-shell.io:urn:admin-shell.io:aas:wind-mill:1#002:asset:hyundai:001",
+             "id": "urn:admin-shell.io:urn:admin-shell.io:aas:wind-mill:1-002:asset:hyundai:001",
              "idType": "IRI"
           },
           "modelType": {
@@ -320,7 +320,7 @@
           },
           "description": [],
           "idShort": "Hyundai Wind Energy Harness",
-          "kind": "Type",
+          "kind": "Instance",
           "embeddedDataSpecifications": []
        }
     ]
