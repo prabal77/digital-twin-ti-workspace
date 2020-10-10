@@ -1,4 +1,4 @@
-import { Body, Controller, Post } from '@nestjs/common';
+import { Body, Controller, Delete, Post, Put } from '@nestjs/common';
 import { AssetAdministrationShellEnv } from 'i40-aas-objects';
 import { AasstoreService } from '../aasstore/aasstore.service';
 // import * as jsonld from 'jsonld';
@@ -24,5 +24,11 @@ export class AasEnvironmentController {
             return aasEnv;
         }
     }
+
+    @Delete()
+    public deleteAll() {
+        this.aasStoreService.cleanup();
+    }
+
 
 }

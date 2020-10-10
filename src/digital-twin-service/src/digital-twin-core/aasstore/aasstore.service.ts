@@ -7,13 +7,23 @@ import { KindEnum } from 'i40-aas-objects/dist/src/types/KindEnum';
 @Injectable()
 export class AasstoreService {
 
-    private aasEnvList = [];
-    private aasDict = new Map<string, AssetAdministrationShell>();
-    private submodelDict = new Map<string, Submodel>();
-    private assetDict = new Map<string, Asset>();
-    private conceptDict = new Map<string, ConceptDescription>();
+    private aasEnvList;
+    private aasDict;
+    private submodelDict;
+    private assetDict;
+    private conceptDict;
 
-    constructor() {}
+    constructor() {
+        this.cleanup();
+    }
+
+    public cleanup() {
+        this.aasEnvList = [];
+        this.aasDict = new Map<string, AssetAdministrationShell>();
+        this.submodelDict = new Map<string, Submodel>();
+        this.assetDict = new Map<string, Asset>();
+        this.conceptDict = new Map<string, ConceptDescription>();
+    }
 
     public addAASEnvObj(obj: AssetAdministrationShellEnv) {
         this.aasEnvList.push(obj);
