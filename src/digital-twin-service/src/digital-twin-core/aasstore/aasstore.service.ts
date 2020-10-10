@@ -2,16 +2,15 @@ import { Injectable } from '@nestjs/common';
 import { Asset, AssetAdministrationShell, AssetAdministrationShellEnv, ConceptDescription, Submodel } from 'i40-aas-objects';
 import { Reference } from 'i40-aas-objects/dist/src/baseClasses/Reference';
 import { AssetKindEnum } from 'i40-aas-objects/dist/src/types/AssetKindEnum';
-import { KindEnum } from 'i40-aas-objects/dist/src/types/KindEnum';
 
 @Injectable()
 export class AasstoreService {
 
-    private aasEnvList;
-    private aasDict;
-    private submodelDict;
-    private assetDict;
-    private conceptDict;
+    private aasEnvList = [];
+    private aasDict = new Map<string, AssetAdministrationShell>();
+    private submodelDict = new Map<string, Submodel>();
+    private assetDict = new Map<string, Asset>();
+    private conceptDict = new Map<string, ConceptDescription>();
 
     constructor() {
         this.cleanup();
