@@ -1,7 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
-import { map, switchMap } from 'rxjs/operators';
-import { DigitalTwinDataService } from '../digital-twin-data.service';
+import { AssetAdministrationShell } from 'i40-aas-objects';
+import { combineLatest, from } from 'rxjs';
+import { map, switchMap, take } from 'rxjs/operators';
+import { LogicService } from '../logic.service';
+import { DigitalTwinModelComplete } from '../model/admin-shell-model';
+import { AdminShellEnvService } from '../services/admin-shell-env.service';
 
 @Component({
   selector: 'app-digital-twin-display',
@@ -9,18 +14,44 @@ import { DigitalTwinDataService } from '../digital-twin-data.service';
   styleUrls: ['./digital-twin-display.component.css']
 })
 export class DigitalTwinDisplayComponent implements OnInit {
-  data: any;
+  shellObjectComplete: DigitalTwinModelComplete;
+  assetDropDown = ['Templates', 'Instances'];
+  assetSelectionFormControl = new FormControl('Templates');
+  assetList: AssetAdministrationShell[];
 
-  constructor(private activatedRoute: ActivatedRoute, private dataService: DigitalTwinDataService) { }
+  constructor(private activatedRoute: ActivatedRoute,
+    private adminShellService: AdminShellEnvService,
+    private logicService: LogicService) { }
 
   ngOnInit() {
     this.activatedRoute.paramMap.pipe(map(_params => _params.get('id')),
       switchMap(_id => {
-        return this.dataService.getAssetAdminShellEnv(_id as string);
-      })).subscribe(_shell => {
-        console.log('shell received ', _shell);
-        this.data = _shell;
+        return combineLatest(this.adminShellService.getAssestAdminShellById(_id),
+          this.adminShellService.getSubModelsForAAS(_id))
+          .pipe(map(_array => new DigitalTwinModelComplete(_array[0], _array[1])));
+      }),
+      switchMap(_model => this.logicService.fetchAllSubAAS(_model)))
+      .subscribe(_shellComplete => {
+        console.log(_shellComplete);
+        this.shellObjectComplete = _shellComplete;
       });
+
+    // get AAS list with category ASSET
+    this.assetSelectionFormControl.valueChanges.pipe(switchMap(_val => {
+      if (_val === 'Templates') {
+        return this.adminShellService.getAssetAdminShellListByAsset(false);
+      } else {
+        return this.adminShellService.getAssetAdminShellListByAsset(true);
+      }
+    })).subscribe(_list => this.assetList = _list);
+
+    // get initial list of assets
+    from(this.adminShellService.getAssetAdminShellListByAsset(false)).pipe(take(1))
+      .subscribe(_list => this.assetList = _list);
+  }
+
+  addAssetToModel(assetTemplate: AssetAdministrationShell) {
+
   }
 
 }

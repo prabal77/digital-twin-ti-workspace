@@ -1,3 +1,22 @@
-<p>digital-twin-display works!</p>
+<c8y-action-bar-item placement="right" priority=0>
+    <a routerLink="/">
+        <i class="fa fa-close"></i>
+        Go Back
+    </a>
+</c8y-action-bar-item>
+<mat-sidenav-container class="container">
+    <mat-sidenav opened mode="side" class="left-panel">
+        <div class="c8y-select-wrapper">
+            <select id="selectExample" class="form-control" [formControl]="assetSelectionFormControl">
+                <option *ngFor="let option of assetDropDown">{{option}}</option>
+            </select>
+        </div>
+        <app-asset-list-panel [assetList]="assetList" (selectedAsset)="addAssetToModel($event)"></app-asset-list-panel>
+    </mat-sidenav>
 
-{{data | json}}
+
+    <mat-sidenav opened mode="side" position="end" class="right-panel">End content</mat-sidenav>
+
+
+    <app-canvas [model]="shellObjectComplete"></app-canvas>
+</mat-sidenav-container>

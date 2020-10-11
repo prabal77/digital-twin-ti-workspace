@@ -1,0 +1,15 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.container{
+    position: relative;
+    height: calc(100vh - 140px);
+    width: 100%;
+}
+
+.left-panel{
+    width: 15%;
+}
+
+.right-panel{
+    width: 15%;
+}
