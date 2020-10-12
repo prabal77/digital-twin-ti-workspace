@@ -1,5 +1,4 @@
 import { AssetAdministrationShell, Submodel } from 'i40-aas-objects';
-import { Key } from 'i40-aas-objects/dist/src/baseClasses/Key';
 import { RelationShipElement } from 'i40-aas-objects/dist/src/referables/RelationshipElement';
 
 export class AdminShellComplete {
@@ -17,21 +16,21 @@ export class DigitalTwinModelComplete extends AdminShellComplete {
     }
 
     getInteractions(): RelationShipElement[] {
-        return (this.submodels.get('Interactions') as Submodel).submodelElements as RelationShipElement[];
+       return (this.submodels.get('Interactions') as Submodel).submodelElements as RelationShipElement[];
     }
 }
 
 export class InteractionNodes {
     public name: string;
-    public fromNodeKey: Key;
-    public toNodeKey: Key;
+    public fromNodeKey: string;
+    public toNodeKey: string;
     public fromNode: AssetAdministrationShell;
     public toNode: AssetAdministrationShell;
 
     constructor(data: RelationShipElement) {
         this.name = data.idShort;
-        this.fromNodeKey = data.first[0];
-        this.toNodeKey = data.second[0];
+        this.fromNodeKey = data.first.keys[0].value;
+        this.toNodeKey = data.second.keys[0].value;
     }
 
 }

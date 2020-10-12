@@ -39,10 +39,11 @@ export class LogicService {
   }
 
   public buildInteractionObjects(digitalTwinModel: DigitalTwinModelComplete): InteractionNodes[] {
-    return digitalTwinModel.getInteractions().map(_rel => new InteractionNodes(_rel))
+    return digitalTwinModel.getInteractions()
+      .map(_rel => new InteractionNodes(_rel))
       .map(_n => {
-        _n.fromNode = this.adminShellCache.get(_n.fromNodeKey.value);
-        _n.toNode = this.adminShellCache.get(_n.toNodeKey.value);
+        _n.fromNode = this.adminShellCache.get(_n.fromNodeKey);
+        _n.toNode = this.adminShellCache.get(_n.toNodeKey);
         return _n;
       });
   }

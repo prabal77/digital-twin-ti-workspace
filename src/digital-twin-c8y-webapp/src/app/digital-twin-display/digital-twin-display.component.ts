@@ -5,7 +5,7 @@ import { AssetAdministrationShell } from 'i40-aas-objects';
 import { combineLatest, from } from 'rxjs';
 import { map, switchMap, take } from 'rxjs/operators';
 import { LogicService } from '../logic.service';
-import { DigitalTwinModelComplete } from '../model/admin-shell-model';
+import { DigitalTwinModelComplete, InteractionNodes } from '../model/admin-shell-model';
 import { AdminShellEnvService } from '../services/admin-shell-env.service';
 
 @Component({
@@ -18,10 +18,11 @@ export class DigitalTwinDisplayComponent implements OnInit {
   assetDropDown = ['Templates', 'Instances'];
   assetSelectionFormControl = new FormControl('Templates');
   assetList: AssetAdministrationShell[];
+  interactions: InteractionNodes[];
 
   constructor(private activatedRoute: ActivatedRoute,
-    private adminShellService: AdminShellEnvService,
-    private logicService: LogicService) { }
+              private adminShellService: AdminShellEnvService,
+              private logicService: LogicService) { }
 
   ngOnInit() {
     this.activatedRoute.paramMap.pipe(map(_params => _params.get('id')),
@@ -34,6 +35,7 @@ export class DigitalTwinDisplayComponent implements OnInit {
       .subscribe(_shellComplete => {
         console.log(_shellComplete);
         this.shellObjectComplete = _shellComplete;
+        this.interactions = this.logicService.buildInteractionObjects(this.shellObjectComplete);
       });
 
     // get AAS list with category ASSET
